@@ -2,6 +2,7 @@ import {Composition, Folder} from "remotion";
 
 // Compositions
 import {ShowcaseComposition} from "./compositions/Showcase";
+import {DonTazonReel, DonTazonCover, TOTAL_FRAMES} from "./compositions/DonTazon";
 
 // Social templates
 import {TikTokVideo} from "./templates/social/TikTokVideo";
@@ -23,6 +24,11 @@ import {PodcastClip} from "./templates/editing/PodcastClip";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="DonTazon">
+        <Composition id="DonTazonReel" component={DonTazonReel} durationInFrames={TOTAL_FRAMES} fps={30} width={1080} height={1920} />
+        <Composition id="DonTazonCover" component={DonTazonCover} durationInFrames={1} fps={30} width={1080} height={1920} />
+      </Folder>
+
       <Folder name="Examples">
         <Composition
           id="Showcase"
