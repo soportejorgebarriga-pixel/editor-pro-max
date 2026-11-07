@@ -51,16 +51,16 @@ const easeOut = Easing.out(Easing.cubic);
 // ---------- Tomas (clip, segundo de entrada, duración en cuadros) ----------
 type Shot = {clip: string; from: number; frames: number};
 const SHOTS: Shot[] = [
-  {clip: "2113", from: 0.8, frames: 90}, // gancho: manos formando en azúcar
-  {clip: "2944", from: 2.0, frames: 75}, // amasado desde arriba
-  {clip: "2945", from: 1.0, frames: 60}, // manos en la masa
-  {clip: "2112", from: 4.0, frames: 75}, // formando junto a la charola
-  {clip: "2114", from: 9.5, frames: 66}, // primer plano en azúcar
-  {clip: "2110", from: 1.0, frames: 75}, // charolas llenas (en lugar del horno)
-  {clip: "2088", from: 11.8, frames: 84}, // equipo: pesa
-  {clip: "2946", from: 2.0, frames: 90}, // equipo: amasa
-  {clip: "2109", from: 6.5, frames: 90}, // equipo: forma
-  {clip: "2114", from: 13.0, frames: 70}, // cierre: manos
+  {clip: "2088", from: 0.5, frames: 90}, // 1. gancho: vaciando harina en la báscula
+  {clip: "2088", from: 11.8, frames: 84}, // 2. pesando la harina (equipo: pesa)
+  {clip: "2944", from: 2.0, frames: 66}, // 3. amasado desde arriba
+  {clip: "2945", from: 1.0, frames: 60}, // 4. detalle de manos en la masa
+  {clip: "2946", from: 2.0, frames: 84}, // 5. equipo: amasa
+  {clip: "2113", from: 0.8, frames: 75}, // 6. manos formando en azúcar
+  {clip: "2114", from: 9.5, frames: 66}, // 7. detalle espolvoreando
+  {clip: "2109", from: 6.5, frames: 84}, // 8. equipo: forma
+  {clip: "2112", from: 4.0, frames: 75}, // 9. acomodando en la charola
+  {clip: "2110", from: 4.5, frames: 96}, // 10. charolas llenas y espolvoreadas, listas para el horno
 ];
 const END_FRAMES = 96;
 
@@ -151,12 +151,12 @@ const Hook: React.FC = () => {
 type Caption = {from: number; to: number; text: string; kicker?: string};
 const s = (i: number) => STARTS[i];
 const CAPTIONS: Caption[] = [
-  {from: s(1) + 4, to: s(3) - 2, text: "Manos que madrugan,"},
-  {from: s(3) + 4, to: s(5) - 2, text: "que forman, una por una,"},
-  {from: s(5) + 4, to: s(6) - 2, text: "y llenan cada charola."},
-  {from: s(6) + 6, to: s(7) - 2, text: "Pesa cada ingrediente.", kicker: "NUESTRO EQUIPO"},
-  {from: s(7) + 6, to: s(8) - 2, text: "Amasa desde temprano.", kicker: "NUESTRO EQUIPO"},
-  {from: s(8) + 6, to: s(9) - 2, text: "Forma cada campechana.", kicker: "NUESTRO EQUIPO"},
+  {from: s(1) + 6, to: s(2) - 2, text: "Pesa cada ingrediente.", kicker: "NUESTRO EQUIPO"},
+  {from: s(2) + 4, to: s(4) - 2, text: "Manos que madrugan,"},
+  {from: s(4) + 6, to: s(5) - 2, text: "Amasa desde temprano.", kicker: "NUESTRO EQUIPO"},
+  {from: s(5) + 4, to: s(7) - 2, text: "que forman, una por una,"},
+  {from: s(7) + 6, to: s(8) - 2, text: "Forma cada campechana.", kicker: "NUESTRO EQUIPO"},
+  {from: s(8) + 4, to: s(9) - 2, text: "y llenan cada charola."},
   {from: s(9) + 6, to: s(10) - 4, text: "Hoy les toca salir en la foto."},
 ];
 
