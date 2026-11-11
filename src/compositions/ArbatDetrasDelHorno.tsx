@@ -53,9 +53,9 @@ type Shot = {clip: string; from: number; frames: number};
 const SHOTS: Shot[] = [
   {clip: "2088", from: 0.5, frames: 90}, // 1. gancho: vaciando harina en la báscula
   {clip: "2088", from: 11.8, frames: 84}, // 2. pesando la harina (equipo: pesa)
-  {clip: "2944", from: 2.0, frames: 66}, // 3. amasado desde arriba
-  {clip: "2945", from: 1.0, frames: 60}, // 4. detalle de manos en la masa
-  {clip: "2946", from: 2.0, frames: 84}, // 5. equipo: amasa
+  {clip: "2944c", from: 0.5, frames: 66}, // 3. amasado desde arriba (reencuadre sin madera)
+  {clip: "2945c", from: 0.5, frames: 60}, // 4. detalle de manos (reencuadre sin madera)
+  {clip: "2948", from: 0.8, frames: 84}, // 5. equipo: amasa (de frente, pared limpia)
   {clip: "2113", from: 0.8, frames: 75}, // 6. manos formando en azúcar
   {clip: "2114", from: 9.5, frames: 66}, // 7. detalle espolvoreando
   {clip: "2109", from: 6.5, frames: 84}, // 8. equipo: forma
