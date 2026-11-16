@@ -10,12 +10,13 @@
   - 3:50–4:05 diapositiva de clase
 - Privacidad: desenfocar **nombres** de alumnos; las caras se quedan.
 
+- Marca: logo `public/assets/brand/logo-tribu.png` (transparente, blanco + dorado). Fondo azul marino #0B1D3A, dorado #CEAB83 → #F3D3A6, tipografía Montserrat. Lema: Aprende • Implementa • Crece.
+
 ## Clips de Jorge (public/assets/raw)
 - IMG_2320 (9.5s), IMG_2321 (25.1s), IMG_2322 (5.8s), IMG_2325 (13.6s); IMG_2319 = pantalla con celular, sin audio.
 - Orden propuesto: 2320 → 2321 → 2322 → 2325 (pendiente confirmar).
 
 ## Pendientes
-4. Logo y colores de marca
 5. Confirmar orden de clips
 6. Música
 7. Originales en mejor calidad (opcional)
