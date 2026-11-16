@@ -33,3 +33,8 @@ dist/
 .trae/
 .windsurf/
 .zencoder/
+
+# Raw footage, derived audio and local transcription tooling
+*.MOV
+*.wav
+whisper.cpp/
