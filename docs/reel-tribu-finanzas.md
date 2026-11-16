@@ -17,6 +17,6 @@
 - Orden propuesto: 2320 → 2321 → 2322 → 2325 (CONFIRMADO).
 
 ## Pendientes
-6. Música
+- Música: NO lleva; el usuario la agrega al publicar. Entregar solo con voz.
 7. Originales en mejor calidad (opcional)
 8. Transcripción (bloqueada por red)
