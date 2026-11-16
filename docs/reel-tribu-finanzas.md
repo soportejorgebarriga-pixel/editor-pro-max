@@ -14,10 +14,9 @@
 
 ## Clips de Jorge (public/assets/raw)
 - IMG_2320 (9.5s), IMG_2321 (25.1s), IMG_2322 (5.8s), IMG_2325 (13.6s); IMG_2319 = pantalla con celular, sin audio.
-- Orden propuesto: 2320 → 2321 → 2322 → 2325 (pendiente confirmar).
+- Orden propuesto: 2320 → 2321 → 2322 → 2325 (CONFIRMADO).
 
 ## Pendientes
-5. Confirmar orden de clips
 6. Música
 7. Originales en mejor calidad (opcional)
 8. Transcripción (bloqueada por red)
