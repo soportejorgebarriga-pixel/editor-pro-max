@@ -20,9 +20,23 @@ import {BeforeAfterDemo} from "./compositions/BeforeAfterDemo";
 import {TalkingHeadEdit} from "./templates/editing/TalkingHeadEdit";
 import {PodcastClip} from "./templates/editing/PodcastClip";
 
+// Arbat
+import {ArbatUltimaCampechana, ARBAT_ULTIMA_DURATION} from "./compositions/ArbatUltimaCampechana";
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Arbat">
+        <Composition
+          id="ArbatUltimaCampechana"
+          component={ArbatUltimaCampechana}
+          durationInFrames={ARBAT_ULTIMA_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
       <Folder name="Examples">
         <Composition
           id="Showcase"
