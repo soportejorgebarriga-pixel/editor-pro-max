@@ -34,3 +34,4 @@ dist/
 .windsurf/
 .zencoder/
 *.wav
+!public/tribu/sfx/*.wav

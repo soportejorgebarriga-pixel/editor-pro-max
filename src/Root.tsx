@@ -20,9 +20,23 @@ import {BeforeAfterDemo} from "./compositions/BeforeAfterDemo";
 import {TalkingHeadEdit} from "./templates/editing/TalkingHeadEdit";
 import {PodcastClip} from "./templates/editing/PodcastClip";
 
+// Canal de Jorge
+import {TribuFinanciera, TRIBU_DURATION} from "./compositions/tribu/TribuFinanciera";
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Jorge">
+        <Composition
+          id="TribuFinancieraVero"
+          component={TribuFinanciera}
+          durationInFrames={TRIBU_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
       <Folder name="Examples">
         <Composition
           id="Showcase"
