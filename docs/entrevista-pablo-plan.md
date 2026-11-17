@@ -24,9 +24,9 @@
 | 0:00–0:06 | Jorge: "Si un emprendedor siente que trabaja todo el día pero nunca avanza…" | Zoom de golpe a Jorge + tipografía cinética "¿TRABAJAS TODO EL DÍA / Y NO AVANZAS?" (AVANZAS en dorado) | Gancho al dolor en el cuadro 0 |
 | 0:06 | — | Destello de luz | Separa gancho del inicio |
 | 0:06–0:13 | "Con Pablo nos pusimos de acuerdo para vestirnos igual…" | Plano abierto de los dos, zoom lento; pop de texto "MISMO OUTFIT 😅" arriba de las cabezas | Humor, rompe el hielo |
-| 0:10 | — | Crédito de persona: Pablo [apellido] · [cargo] | Presenta al invitado |
+| 0:10 | — | Crédito de persona: **Pablo Cejas** · CEO de Bermarys | Presenta al invitado |
 | 0:14–0:19 | "Santiago del Estero, Argentina" | Bandera de Argentina sobre subtítulo + mapa animado con pin | Lugar |
-| 0:19–0:24 | "negocio familiar… cumplimos 57 años" | Contador 0 → **57 AÑOS** (dorado) en tarjeta esmerilada | Cifra de autoridad |
+| 0:19–0:24 | "negocio familiar… cumplimos 57 años" | Línea de tiempo 1969 → 2026 + contador **57 AÑOS** (dorado) en tarjeta esmerilada, nombre BERMARYS | Cifra de autoridad |
 | 0:24–0:31 | "marroquinería, lencería, hilados, colegial" | Explainer con íconos que entran uno por uno | Lista visual |
 | 0:31–0:33 | pausa de turno | Plano cerrado de Jorge escuchando | Respiro natural |
 | 0:33–0:39 | Jorge: "¿cómo decides qué cosas merecen tu tiempo…?" | Cambio a plano cerrado de Jorge + texto línea por línea "¿QUÉ MERECE TU TIEMPO?" | Pregunta clave |
@@ -67,3 +67,8 @@ Sonido: pop en textos, whoosh en destellos, tic en el contador, golpe suave en z
 ## Por confirmar
 - En 0:56 del bruto Pablo dice "la delego a nivel de …" (se entiende "dólar" o "ahorro"). ¿Qué dijo?
 - ¿Dónde quieres que aparezca Tribu Financiera (solo cierre o también como marca de agua)?
+
+## Datos confirmados (Instagram público)
+- Invitado: **Pablo Cejas** (@pablocejas.mkt) — CEO de Bermarys, Líder en Libersity Academia. "Te ayudo a vender más, organizarte mejor y ganar tiempo."
+- Negocio: **Bermarys** (@bermarys_ok) — Lencería, medias, pijamas, hilados, marroquinería. Desde 1969 (57 años en 2026). Santiago del Estero, Argentina.
+- Evento de fondo: Xtrong 2026 (logo Y26).
