@@ -1,84 +1,84 @@
 [
  {
   "text": " Justamente",
-  "startMs": 0,
-  "endMs": 650,
+  "startMs": 860,
+  "endMs": 1360,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " ahora",
-  "startMs": 650,
-  "endMs": 980,
+  "startMs": 1360,
+  "endMs": 1660,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tenemos",
-  "startMs": 980,
-  "endMs": 1440,
+  "startMs": 1660,
+  "endMs": 1960,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " precio",
-  "startMs": 1440,
-  "endMs": 1840,
+  "startMs": 1960,
+  "endMs": 2260,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 1840,
-  "endMs": 2000,
+  "startMs": 2260,
+  "endMs": 2420,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " relanzamiento",
-  "startMs": 2000,
-  "endMs": 3020,
+  "startMs": 2420,
+  "endMs": 3080,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " y",
-  "startMs": 3020,
-  "endMs": 3070,
+  "startMs": 3080,
+  "endMs": 3400,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " puedes",
-  "startMs": 3070,
-  "endMs": 3490,
+  "startMs": 3400,
+  "endMs": 3680,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " unirte",
-  "startMs": 3490,
-  "endMs": 3950,
+  "startMs": 3680,
+  "endMs": 4140,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 3950,
-  "endMs": 4020,
+  "startMs": 4140,
+  "endMs": 4440,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " manera",
-  "startMs": 4020,
-  "endMs": 4320,
+  "startMs": 4440,
+  "endMs": 5000,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " sencillísima.",
-  "startMs": 4320,
+  "startMs": 5000,
   "endMs": 5640,
   "timestampMs": null,
   "confidence": null

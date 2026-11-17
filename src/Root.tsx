@@ -2,6 +2,7 @@ import {Composition, Folder} from "remotion";
 
 // Compositions
 import {ShowcaseComposition} from "./compositions/Showcase";
+import {TribuHookPreview, HOOK_PREVIEW_DURATION} from "./compositions/tribu/HookPreview";
 
 // Social templates
 import {TikTokVideo} from "./templates/social/TikTokVideo";
@@ -23,6 +24,17 @@ import {PodcastClip} from "./templates/editing/PodcastClip";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Tribu">
+        <Composition
+          id="TribuHookPreview"
+          component={TribuHookPreview}
+          durationInFrames={HOOK_PREVIEW_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
       <Folder name="Examples">
         <Composition
           id="Showcase"

@@ -1,203 +1,203 @@
 [
  {
   "text": " ¿Sientes",
-  "startMs": 0,
-  "endMs": 470,
+  "startMs": 360,
+  "endMs": 700,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " que",
-  "startMs": 470,
-  "endMs": 690,
+  "startMs": 700,
+  "endMs": 860,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " le",
-  "startMs": 690,
-  "endMs": 730,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " faltan",
-  "startMs": 730,
+  "startMs": 860,
   "endMs": 1040,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " rumbo",
+  "text": " faltan",
   "startMs": 1040,
-  "endMs": 1300,
+  "endMs": 1380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rumbo",
+  "startMs": 1380,
+  "endMs": 1560,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " a",
-  "startMs": 1300,
-  "endMs": 1350,
+  "startMs": 1560,
+  "endMs": 1720,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " las",
-  "startMs": 1350,
-  "endMs": 1510,
+  "startMs": 1720,
+  "endMs": 2020,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " finanzas",
-  "startMs": 1510,
-  "endMs": 2030,
+  "startMs": 2020,
+  "endMs": 2220,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 2030,
-  "endMs": 2130,
+  "startMs": 2220,
+  "endMs": 2380,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 2130,
-  "endMs": 2270,
+  "startMs": 2380,
+  "endMs": 2620,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " negocio",
-  "startMs": 2270,
-  "endMs": 2760,
+  "startMs": 2620,
+  "endMs": 2820,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " y",
-  "startMs": 2760,
-  "endMs": 2800,
+  "startMs": 2820,
+  "endMs": 3100,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " quieres",
-  "startMs": 2800,
-  "endMs": 3180,
+  "startMs": 3100,
+  "endMs": 3340,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " cumplir",
-  "startMs": 3180,
-  "endMs": 3400,
+  "startMs": 3340,
+  "endMs": 3640,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " las",
-  "startMs": 3400,
-  "endMs": 3540,
+  "startMs": 3640,
+  "endMs": 3800,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " metas",
-  "startMs": 3540,
-  "endMs": 3840,
+  "startMs": 3800,
+  "endMs": 4360,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tanto",
-  "startMs": 3840,
-  "endMs": 4140,
+  "startMs": 4360,
+  "endMs": 4760,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " personales",
-  "startMs": 4140,
-  "endMs": 4840,
+  "startMs": 4760,
+  "endMs": 5360,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " como",
-  "startMs": 4840,
-  "endMs": 5400,
+  "startMs": 5360,
+  "endMs": 5500,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 5400,
-  "endMs": 5530,
+  "startMs": 5500,
+  "endMs": 5660,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 5530,
-  "endMs": 5600,
+  "startMs": 5660,
+  "endMs": 5880,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " negocio",
-  "startMs": 5600,
-  "endMs": 6000,
+  "startMs": 5880,
+  "endMs": 6580,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " en",
-  "startMs": 6000,
-  "endMs": 6320,
+  "startMs": 6580,
+  "endMs": 6800,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " este",
-  "startMs": 6320,
-  "endMs": 6740,
+  "startMs": 6800,
+  "endMs": 7100,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " 2027,",
-  "startMs": 6740,
-  "endMs": 8100,
+  "startMs": 7100,
+  "endMs": 8000,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " pero",
-  "startMs": 8100,
-  "endMs": 8120,
+  "startMs": 8200,
+  "endMs": 8360,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " no",
-  "startMs": 8120,
-  "endMs": 8210,
+  "startMs": 8360,
+  "endMs": 8580,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " sabes",
-  "startMs": 8210,
-  "endMs": 8480,
+  "startMs": 8580,
+  "endMs": 8860,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " cómo?",
-  "startMs": 8480,
+  "startMs": 8860,
   "endMs": 8940,
   "timestampMs": null,
   "confidence": null

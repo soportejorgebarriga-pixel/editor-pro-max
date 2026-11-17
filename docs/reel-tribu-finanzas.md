@@ -23,3 +23,8 @@
   - Jorge dice "más de 80 contenidos" (IMG_2321 ~19.1s), NO "100 clases" como la parrilla. B-roll de biblioteca va ahí.
   - Jorge dice "Escribe la palabra TRIBU" (IMG_2325 ~1.0s) → CTA confirmado por audio.
   - "más de 50 personas" (IMG_2321 ~16.7s), "martes cada 15 días en vivo" (~4.2s), "reto mensual" (~9s), "precio de relanzamiento" (IMG_2322).
+
+## Muestra del gancho (en revisión)
+- Composición `TribuHookPreview` (src/compositions/tribu/HookPreview.tsx): IMG_2320 completo + inicio de IMG_2321 hasta "Es una membresía".
+- Render: `npx remotion render TribuHookPreview out/muestra-gancho-tribu.mp4 --browser-executable=/opt/pw-browsers/chromium`, luego loudnorm I=-14 con ffmpeg.
+- Subtítulos con tiempos DTW (whisper.cpp -dtw medium). Montserrat local en public/fonts.
