@@ -1,0 +1,2865 @@
+[
+ {
+  "text": " Vero,",
+  "startMs": 4620,
+  "endMs": 5100,
+  "timestampMs": 4620,
+  "confidence": 0.5090777929872274
+ },
+ {
+  "text": " cuéntanos",
+  "startMs": 5200,
+  "endMs": 5680,
+  "timestampMs": 5200,
+  "confidence": 0.9426985383033752
+ },
+ {
+  "text": " de",
+  "startMs": 5680,
+  "endMs": 6000,
+  "timestampMs": 5680,
+  "confidence": 0.844556987285614
+ },
+ {
+  "text": " dónde",
+  "startMs": 6000,
+  "endMs": 6220,
+  "timestampMs": 6000,
+  "confidence": 0.818727970123291
+ },
+ {
+  "text": " eres",
+  "startMs": 6220,
+  "endMs": 6600,
+  "timestampMs": 6220,
+  "confidence": 0.9940172433853149
+ },
+ {
+  "text": " y",
+  "startMs": 6600,
+  "endMs": 6760,
+  "timestampMs": 6600,
+  "confidence": 0.8710796236991882
+ },
+ {
+  "text": " qué",
+  "startMs": 6760,
+  "endMs": 6860,
+  "timestampMs": 6760,
+  "confidence": 0.721776008605957
+ },
+ {
+  "text": " negocio",
+  "startMs": 6860,
+  "endMs": 7140,
+  "timestampMs": 6860,
+  "confidence": 0.9951547086238861
+ },
+ {
+  "text": " tienes.",
+  "startMs": 7140,
+  "endMs": 7480,
+  "timestampMs": 7140,
+  "confidence": 0.9853858947753906
+ },
+ {
+  "text": " Yo",
+  "startMs": 7820,
+  "endMs": 7960,
+  "timestampMs": 7820,
+  "confidence": 0.8166468739509583
+ },
+ {
+  "text": " vengo",
+  "startMs": 7960,
+  "endMs": 8260,
+  "timestampMs": 7960,
+  "confidence": 0.9977985918521881
+ },
+ {
+  "text": " de",
+  "startMs": 8260,
+  "endMs": 8480,
+  "timestampMs": 8260,
+  "confidence": 0.5621123313903809
+ },
+ {
+  "text": " Ecuador",
+  "startMs": 8480,
+  "endMs": 9060,
+  "timestampMs": 8480,
+  "confidence": 0.9767810106277466
+ },
+ {
+  "text": " y",
+  "startMs": 9060,
+  "endMs": 9460,
+  "timestampMs": 9060,
+  "confidence": 0.9016377925872803
+ },
+ {
+  "text": " tengo",
+  "startMs": 9460,
+  "endMs": 10080,
+  "timestampMs": 9460,
+  "confidence": 0.9900156855583191
+ },
+ {
+  "text": " un",
+  "startMs": 10080,
+  "endMs": 11020,
+  "timestampMs": 10080,
+  "confidence": 0.9500835537910461
+ },
+ {
+  "text": " Centro",
+  "startMs": 11020,
+  "endMs": 11340,
+  "timestampMs": 11020,
+  "confidence": 0.6445610523223877
+ },
+ {
+  "text": " Médico",
+  "startMs": 11340,
+  "endMs": 11580,
+  "timestampMs": 11340,
+  "confidence": 0.9289033015569051
+ },
+ {
+  "text": " de",
+  "startMs": 11580,
+  "endMs": 11760,
+  "timestampMs": 11580,
+  "confidence": 0.9626680016517639
+ },
+ {
+  "text": " Especialidades",
+  "startMs": 11760,
+  "endMs": 12340,
+  "timestampMs": 11760,
+  "confidence": 0.9815763682126999
+ },
+ {
+  "text": " brindo",
+  "startMs": 12340,
+  "endMs": 12680,
+  "timestampMs": 12340,
+  "confidence": 0.46285927295684814
+ },
+ {
+  "text": " servicios",
+  "startMs": 12680,
+  "endMs": 13040,
+  "timestampMs": 12680,
+  "confidence": 0.7819576859474182
+ },
+ {
+  "text": " de",
+  "startMs": 13040,
+  "endMs": 13260,
+  "timestampMs": 13040,
+  "confidence": 0.9940901398658752
+ },
+ {
+  "text": " salud.",
+  "startMs": 13260,
+  "endMs": 13560,
+  "timestampMs": 13260,
+  "confidence": 0.9722592234611511
+ },
+ {
+  "text": " Soy",
+  "startMs": 14080,
+  "endMs": 14080,
+  "timestampMs": 14080,
+  "confidence": 0.8901914358139038
+ },
+ {
+  "text": " nefróloga.",
+  "startMs": 14080,
+  "endMs": 14940,
+  "timestampMs": 14080,
+  "confidence": 0.9373187899589539
+ },
+ {
+  "text": " Vero",
+  "startMs": 15380,
+  "endMs": 15600,
+  "timestampMs": 15380,
+  "confidence": 0.6697821617126465
+ },
+ {
+  "text": " ha",
+  "startMs": 15600,
+  "endMs": 15760,
+  "timestampMs": 15600,
+  "confidence": 0.3754458427429199
+ },
+ {
+  "text": " estado",
+  "startMs": 15760,
+  "endMs": 15820,
+  "timestampMs": 15760,
+  "confidence": 0.9567936658859253
+ },
+ {
+  "text": " en",
+  "startMs": 15820,
+  "endMs": 16040,
+  "timestampMs": 15820,
+  "confidence": 0.4771883189678192
+ },
+ {
+  "text": " algunos",
+  "startMs": 16040,
+  "endMs": 16180,
+  "timestampMs": 16040,
+  "confidence": 0.16530244052410126
+ },
+ {
+  "text": " de",
+  "startMs": 16180,
+  "endMs": 16360,
+  "timestampMs": 16180,
+  "confidence": 0.9852738976478577
+ },
+ {
+  "text": " nuestros",
+  "startMs": 16360,
+  "endMs": 16580,
+  "timestampMs": 16360,
+  "confidence": 0.9749161005020142
+ },
+ {
+  "text": " programas",
+  "startMs": 16580,
+  "endMs": 17300,
+  "timestampMs": 16580,
+  "confidence": 0.9985699355602264
+ },
+ {
+  "text": " y",
+  "startMs": 17300,
+  "endMs": 17640,
+  "timestampMs": 17300,
+  "confidence": 0.6446006298065186
+ },
+ {
+  "text": " creo",
+  "startMs": 17640,
+  "endMs": 17840,
+  "timestampMs": 17640,
+  "confidence": 0.759036660194397
+ },
+ {
+  "text": " que",
+  "startMs": 17840,
+  "endMs": 18000,
+  "timestampMs": 17840,
+  "confidence": 0.9895249605178833
+ },
+ {
+  "text": " ha",
+  "startMs": 18000,
+  "endMs": 18060,
+  "timestampMs": 18000,
+  "confidence": 0.9008719325065613
+ },
+ {
+  "text": " logrado",
+  "startMs": 18060,
+  "endMs": 18340,
+  "timestampMs": 18060,
+  "confidence": 0.9948367178440094
+ },
+ {
+  "text": " un",
+  "startMs": 18340,
+  "endMs": 18540,
+  "timestampMs": 18340,
+  "confidence": 0.9809966087341309
+ },
+ {
+  "text": " resultado",
+  "startMs": 18540,
+  "endMs": 18980,
+  "timestampMs": 18540,
+  "confidence": 0.9952741861343384
+ },
+ {
+  "text": " muy",
+  "startMs": 18980,
+  "endMs": 19560,
+  "timestampMs": 18980,
+  "confidence": 0.958931028842926
+ },
+ {
+  "text": " importante",
+  "startMs": 19560,
+  "endMs": 20080,
+  "timestampMs": 19560,
+  "confidence": 0.4340285062789917
+ },
+ {
+  "text": " porque",
+  "startMs": 20080,
+  "endMs": 20340,
+  "timestampMs": 20080,
+  "confidence": 0.6035759449005127
+ },
+ {
+  "text": " llega",
+  "startMs": 20340,
+  "endMs": 20540,
+  "timestampMs": 20340,
+  "confidence": 0.4299030005931854
+ },
+ {
+  "text": " el",
+  "startMs": 20540,
+  "endMs": 20600,
+  "timestampMs": 20540,
+  "confidence": 0.4831759035587311
+ },
+ {
+  "text": " sector",
+  "startMs": 20600,
+  "endMs": 20860,
+  "timestampMs": 20600,
+  "confidence": 0.9896382093429565
+ },
+ {
+  "text": " salud.",
+  "startMs": 20860,
+  "endMs": 21120,
+  "timestampMs": 20860,
+  "confidence": 0.9014056324958801
+ },
+ {
+  "text": " Hay",
+  "startMs": 21240,
+  "endMs": 21340,
+  "timestampMs": 21240,
+  "confidence": 0.8392532467842102
+ },
+ {
+  "text": " muchos",
+  "startMs": 21340,
+  "endMs": 21620,
+  "timestampMs": 21340,
+  "confidence": 0.9742537140846252
+ },
+ {
+  "text": " emprendedores",
+  "startMs": 21620,
+  "endMs": 21980,
+  "timestampMs": 21620,
+  "confidence": 0.9696565717458725
+ },
+ {
+  "text": " del",
+  "startMs": 21980,
+  "endMs": 22220,
+  "timestampMs": 21980,
+  "confidence": 0.3877348005771637
+ },
+ {
+  "text": " sector",
+  "startMs": 22220,
+  "endMs": 22300,
+  "timestampMs": 22220,
+  "confidence": 0.995609700679779
+ },
+ {
+  "text": " salud",
+  "startMs": 22300,
+  "endMs": 22500,
+  "timestampMs": 22300,
+  "confidence": 0.9728532433509827
+ },
+ {
+  "text": " que",
+  "startMs": 22500,
+  "endMs": 22720,
+  "timestampMs": 22500,
+  "confidence": 0.9876822829246521
+ },
+ {
+  "text": " no",
+  "startMs": 22720,
+  "endMs": 22880,
+  "timestampMs": 22720,
+  "confidence": 0.9947270750999451
+ },
+ {
+  "text": " se",
+  "startMs": 22880,
+  "endMs": 23060,
+  "timestampMs": 22880,
+  "confidence": 0.9946048855781555
+ },
+ {
+  "text": " capacitan.",
+  "startMs": 23060,
+  "endMs": 23860,
+  "timestampMs": 23060,
+  "confidence": 0.82394939661026
+ },
+ {
+  "text": " ¿Por",
+  "startMs": 24000,
+  "endMs": 24120,
+  "timestampMs": 24000,
+  "confidence": 0.9171998798847198
+ },
+ {
+  "text": " qué",
+  "startMs": 24120,
+  "endMs": 24220,
+  "timestampMs": 24120,
+  "confidence": 0.970130205154419
+ },
+ {
+  "text": " consideras",
+  "startMs": 24220,
+  "endMs": 24680,
+  "timestampMs": 24220,
+  "confidence": 0.9827951788902283
+ },
+ {
+  "text": " que",
+  "startMs": 24680,
+  "endMs": 24960,
+  "timestampMs": 24680,
+  "confidence": 0.9922038316726685
+ },
+ {
+  "text": " no",
+  "startMs": 24960,
+  "endMs": 25100,
+  "timestampMs": 24960,
+  "confidence": 0.93467777967453
+ },
+ {
+  "text": " se",
+  "startMs": 25100,
+  "endMs": 25280,
+  "timestampMs": 25100,
+  "confidence": 0.9840564727783203
+ },
+ {
+  "text": " capacitan",
+  "startMs": 25280,
+  "endMs": 25680,
+  "timestampMs": 25280,
+  "confidence": 0.9257949888706207
+ },
+ {
+  "text": " mucho",
+  "startMs": 25680,
+  "endMs": 25880,
+  "timestampMs": 25680,
+  "confidence": 0.5875275731086731
+ },
+ {
+  "text": " las",
+  "startMs": 25880,
+  "endMs": 26000,
+  "timestampMs": 25880,
+  "confidence": 0.8820313215255737
+ },
+ {
+  "text": " personas",
+  "startMs": 26000,
+  "endMs": 26320,
+  "timestampMs": 26000,
+  "confidence": 0.9978036284446716
+ },
+ {
+  "text": " de",
+  "startMs": 26320,
+  "endMs": 26460,
+  "timestampMs": 26320,
+  "confidence": 0.6800005435943604
+ },
+ {
+  "text": " ese",
+  "startMs": 26460,
+  "endMs": 26540,
+  "timestampMs": 26460,
+  "confidence": 0.8612349033355713
+ },
+ {
+  "text": " sector?",
+  "startMs": 26540,
+  "endMs": 26780,
+  "timestampMs": 26540,
+  "confidence": 0.996204674243927
+ },
+ {
+  "text": " Pienso",
+  "startMs": 27680,
+  "endMs": 28200,
+  "timestampMs": 27680,
+  "confidence": 0.7900845110416412
+ },
+ {
+  "text": " que",
+  "startMs": 28200,
+  "endMs": 28720,
+  "timestampMs": 28200,
+  "confidence": 0.9954663515090942
+ },
+ {
+  "text": " estamos",
+  "startMs": 28720,
+  "endMs": 29020,
+  "timestampMs": 28720,
+  "confidence": 0.985454797744751
+ },
+ {
+  "text": " muy",
+  "startMs": 29020,
+  "endMs": 29340,
+  "timestampMs": 29020,
+  "confidence": 0.9889388084411621
+ },
+ {
+  "text": " metidos",
+  "startMs": 29340,
+  "endMs": 29780,
+  "timestampMs": 29340,
+  "confidence": 0.9874072670936584
+ },
+ {
+  "text": " en",
+  "startMs": 29780,
+  "endMs": 29980,
+  "timestampMs": 29780,
+  "confidence": 0.9894866943359375
+ },
+ {
+  "text": " los",
+  "startMs": 29980,
+  "endMs": 30100,
+  "timestampMs": 29980,
+  "confidence": 0.9890623688697815
+ },
+ {
+  "text": " temas",
+  "startMs": 30100,
+  "endMs": 30300,
+  "timestampMs": 30100,
+  "confidence": 0.9944829344749451
+ },
+ {
+  "text": " científicos,",
+  "startMs": 30300,
+  "endMs": 31060,
+  "timestampMs": 30300,
+  "confidence": 0.9963746666908264
+ },
+ {
+  "text": " que",
+  "startMs": 31200,
+  "endMs": 31340,
+  "timestampMs": 31200,
+  "confidence": 0.9881376624107361
+ },
+ {
+  "text": " descuidamos",
+  "startMs": 31340,
+  "endMs": 31860,
+  "timestampMs": 31340,
+  "confidence": 0.9864235371351242
+ },
+ {
+  "text": " un",
+  "startMs": 31860,
+  "endMs": 32040,
+  "timestampMs": 31860,
+  "confidence": 0.9549502730369568
+ },
+ {
+  "text": " poco",
+  "startMs": 32040,
+  "endMs": 32260,
+  "timestampMs": 32040,
+  "confidence": 0.9973493814468384
+ },
+ {
+  "text": " los",
+  "startMs": 32260,
+  "endMs": 32480,
+  "timestampMs": 32260,
+  "confidence": 0.6614342331886292
+ },
+ {
+  "text": " temas",
+  "startMs": 32480,
+  "endMs": 32780,
+  "timestampMs": 32480,
+  "confidence": 0.9964938759803772
+ },
+ {
+  "text": " empresariales",
+  "startMs": 32780,
+  "endMs": 33660,
+  "timestampMs": 32780,
+  "confidence": 0.994701107343038
+ },
+ {
+  "text": " y",
+  "startMs": 33660,
+  "endMs": 33860,
+  "timestampMs": 33660,
+  "confidence": 0.49192777276039124
+ },
+ {
+  "text": " pues",
+  "startMs": 33860,
+  "endMs": 34000,
+  "timestampMs": 33860,
+  "confidence": 0.8540608882904053
+ },
+ {
+  "text": " realmente",
+  "startMs": 34000,
+  "endMs": 34860,
+  "timestampMs": 34000,
+  "confidence": 0.9321053624153137
+ },
+ {
+  "text": " tiene",
+  "startMs": 34860,
+  "endMs": 35600,
+  "timestampMs": 34860,
+  "confidence": 0.899598240852356
+ },
+ {
+  "text": " mucho",
+  "startMs": 35600,
+  "endMs": 35880,
+  "timestampMs": 35600,
+  "confidence": 0.994841992855072
+ },
+ {
+  "text": " sentido",
+  "startMs": 35880,
+  "endMs": 36300,
+  "timestampMs": 35880,
+  "confidence": 0.9985861778259277
+ },
+ {
+  "text": " capacitarse",
+  "startMs": 36860,
+  "endMs": 37380,
+  "timestampMs": 36860,
+  "confidence": 0.8604705135027567
+ },
+ {
+  "text": " en",
+  "startMs": 37380,
+  "endMs": 37880,
+  "timestampMs": 37380,
+  "confidence": 0.9611570835113525
+ },
+ {
+  "text": " cuestiones",
+  "startMs": 37880,
+  "endMs": 38300,
+  "timestampMs": 37880,
+  "confidence": 0.9956986010074615
+ },
+ {
+  "text": " no",
+  "startMs": 38300,
+  "endMs": 38480,
+  "timestampMs": 38300,
+  "confidence": 0.6217080354690552
+ },
+ {
+  "text": " solamente",
+  "startMs": 38480,
+  "endMs": 38860,
+  "timestampMs": 38480,
+  "confidence": 0.9809320569038391
+ },
+ {
+  "text": " si",
+  "startMs": 38860,
+  "endMs": 39100,
+  "timestampMs": 38860,
+  "confidence": 0.9843907952308655
+ },
+ {
+  "text": " tienes",
+  "startMs": 39100,
+  "endMs": 39320,
+  "timestampMs": 39100,
+  "confidence": 0.9765172004699707
+ },
+ {
+  "text": " una",
+  "startMs": 39320,
+  "endMs": 39620,
+  "timestampMs": 39320,
+  "confidence": 0.9947530031204224
+ },
+ {
+  "text": " empresa",
+  "startMs": 39620,
+  "endMs": 39840,
+  "timestampMs": 39620,
+  "confidence": 0.997805655002594
+ },
+ {
+  "text": " o",
+  "startMs": 39840,
+  "endMs": 40060,
+  "timestampMs": 39840,
+  "confidence": 0.8716291785240173
+ },
+ {
+  "text": " pretendes",
+  "startMs": 40060,
+  "endMs": 40300,
+  "timestampMs": 40060,
+  "confidence": 0.6148045659065247
+ },
+ {
+  "text": " poner",
+  "startMs": 40300,
+  "endMs": 40540,
+  "timestampMs": 40300,
+  "confidence": 0.9768889546394348
+ },
+ {
+  "text": " una",
+  "startMs": 40540,
+  "endMs": 40740,
+  "timestampMs": 40540,
+  "confidence": 0.9922348260879517
+ },
+ {
+  "text": " empresa",
+  "startMs": 40740,
+  "endMs": 41020,
+  "timestampMs": 40740,
+  "confidence": 0.9976315498352051
+ },
+ {
+  "text": " grande,",
+  "startMs": 41020,
+  "endMs": 41380,
+  "timestampMs": 41020,
+  "confidence": 0.9819359183311462
+ },
+ {
+  "text": " sino",
+  "startMs": 41500,
+  "endMs": 41760,
+  "timestampMs": 41500,
+  "confidence": 0.9384517669677734
+ },
+ {
+  "text": " que",
+  "startMs": 41760,
+  "endMs": 42120,
+  "timestampMs": 41760,
+  "confidence": 0.97611403465271
+ },
+ {
+  "text": " nuestro",
+  "startMs": 42120,
+  "endMs": 42380,
+  "timestampMs": 42120,
+  "confidence": 0.9909413456916809
+ },
+ {
+  "text": " propio",
+  "startMs": 42380,
+  "endMs": 42660,
+  "timestampMs": 42380,
+  "confidence": 0.9943912625312805
+ },
+ {
+  "text": " consultorio",
+  "startMs": 42660,
+  "endMs": 43240,
+  "timestampMs": 42660,
+  "confidence": 0.9968027075131735
+ },
+ {
+  "text": " ya",
+  "startMs": 43240,
+  "endMs": 43380,
+  "timestampMs": 43240,
+  "confidence": 0.9861896634101868
+ },
+ {
+  "text": " es",
+  "startMs": 43380,
+  "endMs": 43540,
+  "timestampMs": 43380,
+  "confidence": 0.9985029697418213
+ },
+ {
+  "text": " un",
+  "startMs": 43540,
+  "endMs": 43780,
+  "timestampMs": 43540,
+  "confidence": 0.9980931878089905
+ },
+ {
+  "text": " negocio",
+  "startMs": 43780,
+  "endMs": 44040,
+  "timestampMs": 43780,
+  "confidence": 0.9975312948226929
+ },
+ {
+  "text": " para",
+  "startMs": 44040,
+  "endMs": 44280,
+  "timestampMs": 44040,
+  "confidence": 0.9957186579704285
+ },
+ {
+  "text": " nosotros.",
+  "startMs": 44280,
+  "endMs": 44700,
+  "timestampMs": 44280,
+  "confidence": 0.9962807297706604
+ },
+ {
+  "text": " Y",
+  "startMs": 45060,
+  "endMs": 45180,
+  "timestampMs": 45060,
+  "confidence": 0.8930028676986694
+ },
+ {
+  "text": " hace",
+  "startMs": 45180,
+  "endMs": 45320,
+  "timestampMs": 45180,
+  "confidence": 0.9910679459571838
+ },
+ {
+  "text": " falta",
+  "startMs": 45320,
+  "endMs": 45580,
+  "timestampMs": 45320,
+  "confidence": 0.9961040019989014
+ },
+ {
+  "text": " mucho",
+  "startMs": 45580,
+  "endMs": 45760,
+  "timestampMs": 45580,
+  "confidence": 0.927179753780365
+ },
+ {
+  "text": " la",
+  "startMs": 45760,
+  "endMs": 46040,
+  "timestampMs": 45760,
+  "confidence": 0.9938283562660217
+ },
+ {
+  "text": " capacitación",
+  "startMs": 46040,
+  "endMs": 46520,
+  "timestampMs": 46040,
+  "confidence": 0.996931403875351
+ },
+ {
+  "text": " en",
+  "startMs": 46520,
+  "endMs": 46720,
+  "timestampMs": 46520,
+  "confidence": 0.9951254725456238
+ },
+ {
+  "text": " ese",
+  "startMs": 46720,
+  "endMs": 46860,
+  "timestampMs": 46720,
+  "confidence": 0.5833936333656311
+ },
+ {
+  "text": " tema",
+  "startMs": 46860,
+  "endMs": 47040,
+  "timestampMs": 46860,
+  "confidence": 0.9987057447433472
+ },
+ {
+  "text": " pero",
+  "startMs": 47040,
+  "endMs": 47220,
+  "timestampMs": 47040,
+  "confidence": 0.49065136909484863
+ },
+ {
+  "text": " lo",
+  "startMs": 47220,
+  "endMs": 47440,
+  "timestampMs": 47220,
+  "confidence": 0.9813659191131592
+ },
+ {
+  "text": " dejamos",
+  "startMs": 47440,
+  "endMs": 47740,
+  "timestampMs": 47440,
+  "confidence": 0.9979456663131714
+ },
+ {
+  "text": " descuidado",
+  "startMs": 47740,
+  "endMs": 48320,
+  "timestampMs": 47740,
+  "confidence": 0.9928266257047653
+ },
+ {
+  "text": " porque",
+  "startMs": 48320,
+  "endMs": 48560,
+  "timestampMs": 48320,
+  "confidence": 0.9556035399436951
+ },
+ {
+  "text": " pensamos",
+  "startMs": 48560,
+  "endMs": 49120,
+  "timestampMs": 48560,
+  "confidence": 0.9972343444824219
+ },
+ {
+  "text": " que",
+  "startMs": 49120,
+  "endMs": 49440,
+  "timestampMs": 49120,
+  "confidence": 0.9913312196731567
+ },
+ {
+  "text": " lo",
+  "startMs": 49440,
+  "endMs": 49660,
+  "timestampMs": 49440,
+  "confidence": 0.9875400066375732
+ },
+ {
+  "text": " suficiente",
+  "startMs": 49660,
+  "endMs": 50160,
+  "timestampMs": 49660,
+  "confidence": 0.9966625571250916
+ },
+ {
+  "text": " es",
+  "startMs": 50160,
+  "endMs": 50460,
+  "timestampMs": 50160,
+  "confidence": 0.9792726039886475
+ },
+ {
+  "text": " seguirnos",
+  "startMs": 50460,
+  "endMs": 50880,
+  "timestampMs": 50460,
+  "confidence": 0.9782710075378418
+ },
+ {
+  "text": " capacitando",
+  "startMs": 50880,
+  "endMs": 51320,
+  "timestampMs": 50880,
+  "confidence": 0.9912388324737549
+ },
+ {
+  "text": " en",
+  "startMs": 51320,
+  "endMs": 51480,
+  "timestampMs": 51320,
+  "confidence": 0.9764160513877869
+ },
+ {
+  "text": " el",
+  "startMs": 51480,
+  "endMs": 51560,
+  "timestampMs": 51480,
+  "confidence": 0.9959107637405396
+ },
+ {
+  "text": " tema",
+  "startMs": 51560,
+  "endMs": 51720,
+  "timestampMs": 51560,
+  "confidence": 0.9996488094329834
+ },
+ {
+  "text": " científico.",
+  "startMs": 51720,
+  "endMs": 51980,
+  "timestampMs": 51720,
+  "confidence": 0.9961876273155212
+ },
+ {
+  "text": " ¿Y",
+  "startMs": 51980,
+  "endMs": 52920,
+  "timestampMs": 51980,
+  "confidence": 0.4089706987142563
+ },
+ {
+  "text": " cuál",
+  "startMs": 52920,
+  "endMs": 53100,
+  "timestampMs": 52920,
+  "confidence": 0.6903197169303894
+ },
+ {
+  "text": " consideras",
+  "startMs": 53100,
+  "endMs": 53500,
+  "timestampMs": 53100,
+  "confidence": 0.9526128768920898
+ },
+ {
+  "text": " que",
+  "startMs": 53500,
+  "endMs": 53600,
+  "timestampMs": 53500,
+  "confidence": 0.9759970903396606
+ },
+ {
+  "text": " para",
+  "startMs": 53600,
+  "endMs": 53780,
+  "timestampMs": 53600,
+  "confidence": 0.8877476453781128
+ },
+ {
+  "text": " ti",
+  "startMs": 53780,
+  "endMs": 53920,
+  "timestampMs": 53780,
+  "confidence": 0.8764623403549194
+ },
+ {
+  "text": " fue",
+  "startMs": 53920,
+  "endMs": 54100,
+  "timestampMs": 53920,
+  "confidence": 0.9850253462791443
+ },
+ {
+  "text": " un",
+  "startMs": 54100,
+  "endMs": 54400,
+  "timestampMs": 54100,
+  "confidence": 0.9918370842933655
+ },
+ {
+  "text": " problema",
+  "startMs": 54400,
+  "endMs": 54820,
+  "timestampMs": 54400,
+  "confidence": 0.996780514717102
+ },
+ {
+  "text": " cuando",
+  "startMs": 54820,
+  "endMs": 55620,
+  "timestampMs": 54820,
+  "confidence": 0.8328786492347717
+ },
+ {
+  "text": " pusiste",
+  "startMs": 55620,
+  "endMs": 56060,
+  "timestampMs": 55620,
+  "confidence": 0.99760502576828
+ },
+ {
+  "text": " tu",
+  "startMs": 56060,
+  "endMs": 56260,
+  "timestampMs": 56060,
+  "confidence": 0.9784312844276428
+ },
+ {
+  "text": " negocio",
+  "startMs": 56260,
+  "endMs": 57000,
+  "timestampMs": 56260,
+  "confidence": 0.9956718385219574
+ },
+ {
+  "text": " para",
+  "startMs": 57000,
+  "endMs": 57620,
+  "timestampMs": 57000,
+  "confidence": 0.9155197143554688
+ },
+ {
+  "text": " poder",
+  "startMs": 57620,
+  "endMs": 58120,
+  "timestampMs": 57620,
+  "confidence": 0.9944815635681152
+ },
+ {
+  "text": " salir",
+  "startMs": 58120,
+  "endMs": 58480,
+  "timestampMs": 58120,
+  "confidence": 0.8840321898460388
+ },
+ {
+  "text": " adelante",
+  "startMs": 58480,
+  "endMs": 58800,
+  "timestampMs": 58480,
+  "confidence": 0.9893372058868408
+ },
+ {
+  "text": " o",
+  "startMs": 58800,
+  "endMs": 58980,
+  "timestampMs": 58800,
+  "confidence": 0.6934481263160706
+ },
+ {
+  "text": " crecer",
+  "startMs": 58980,
+  "endMs": 59320,
+  "timestampMs": 58980,
+  "confidence": 0.9922456741333008
+ },
+ {
+  "text": " o",
+  "startMs": 59320,
+  "endMs": 59460,
+  "timestampMs": 59320,
+  "confidence": 0.9415304660797119
+ },
+ {
+  "text": " avanzar?",
+  "startMs": 59460,
+  "endMs": 60040,
+  "timestampMs": 59460,
+  "confidence": 0.9974747002124786
+ },
+ {
+  "text": " Pienso",
+  "startMs": 61020,
+  "endMs": 61580,
+  "timestampMs": 61020,
+  "confidence": 0.8314304053783417
+ },
+ {
+  "text": " que",
+  "startMs": 61580,
+  "endMs": 61820,
+  "timestampMs": 61580,
+  "confidence": 0.9915537238121033
+ },
+ {
+  "text": " el",
+  "startMs": 61820,
+  "endMs": 62080,
+  "timestampMs": 61820,
+  "confidence": 0.8085782527923584
+ },
+ {
+  "text": " problema",
+  "startMs": 62080,
+  "endMs": 62520,
+  "timestampMs": 62080,
+  "confidence": 0.9977541565895081
+ },
+ {
+  "text": " fue",
+  "startMs": 62520,
+  "endMs": 63060,
+  "timestampMs": 62520,
+  "confidence": 0.9887850284576416
+ },
+ {
+  "text": " básicamente",
+  "startMs": 63060,
+  "endMs": 63900,
+  "timestampMs": 63060,
+  "confidence": 0.9202830195426941
+ },
+ {
+  "text": " no",
+  "startMs": 63900,
+  "endMs": 64140,
+  "timestampMs": 63900,
+  "confidence": 0.9586706757545471
+ },
+ {
+  "text": " tener",
+  "startMs": 64140,
+  "endMs": 64380,
+  "timestampMs": 64140,
+  "confidence": 0.9979438185691833
+ },
+ {
+  "text": " una",
+  "startMs": 64380,
+  "endMs": 64700,
+  "timestampMs": 64380,
+  "confidence": 0.9938411712646484
+ },
+ {
+  "text": " estructura",
+  "startMs": 64700,
+  "endMs": 65240,
+  "timestampMs": 64700,
+  "confidence": 0.9988116323947906
+ },
+ {
+  "text": " de",
+  "startMs": 65240,
+  "endMs": 65500,
+  "timestampMs": 65240,
+  "confidence": 0.9653306007385254
+ },
+ {
+  "text": " cómo",
+  "startMs": 65500,
+  "endMs": 65660,
+  "timestampMs": 65500,
+  "confidence": 0.9517077207565308
+ },
+ {
+  "text": " manejar,",
+  "startMs": 65660,
+  "endMs": 66180,
+  "timestampMs": 65660,
+  "confidence": 0.995653510093689
+ },
+ {
+  "text": " por",
+  "startMs": 66180,
+  "endMs": 66360,
+  "timestampMs": 66180,
+  "confidence": 0.9974610805511475
+ },
+ {
+  "text": " ejemplo,",
+  "startMs": 66360,
+  "endMs": 66560,
+  "timestampMs": 66360,
+  "confidence": 0.9992623925209045
+ },
+ {
+  "text": " la",
+  "startMs": 66660,
+  "endMs": 66800,
+  "timestampMs": 66660,
+  "confidence": 0.9922562837600708
+ },
+ {
+  "text": " parte",
+  "startMs": 66800,
+  "endMs": 67080,
+  "timestampMs": 66800,
+  "confidence": 0.9969877600669861
+ },
+ {
+  "text": " financiera,",
+  "startMs": 67080,
+  "endMs": 68280,
+  "timestampMs": 67080,
+  "confidence": 0.9991913139820099
+ },
+ {
+  "text": " incluso",
+  "startMs": 68420,
+  "endMs": 68940,
+  "timestampMs": 68420,
+  "confidence": 0.8951083421707153
+ },
+ {
+  "text": " de",
+  "startMs": 68940,
+  "endMs": 69120,
+  "timestampMs": 68940,
+  "confidence": 0.9289554357528687
+ },
+ {
+  "text": " cómo",
+  "startMs": 69120,
+  "endMs": 69280,
+  "timestampMs": 69120,
+  "confidence": 0.9859027862548828
+ },
+ {
+  "text": " vender",
+  "startMs": 69280,
+  "endMs": 69540,
+  "timestampMs": 69280,
+  "confidence": 0.999396562576294
+ },
+ {
+  "text": " los",
+  "startMs": 69540,
+  "endMs": 69760,
+  "timestampMs": 69540,
+  "confidence": 0.9971390962600708
+ },
+ {
+  "text": " servicios",
+  "startMs": 69760,
+  "endMs": 70100,
+  "timestampMs": 69760,
+  "confidence": 0.9993137121200562
+ },
+ {
+  "text": " porque",
+  "startMs": 70100,
+  "endMs": 70380,
+  "timestampMs": 70100,
+  "confidence": 0.47036290168762207
+ },
+ {
+  "text": " estamos",
+  "startMs": 70380,
+  "endMs": 70640,
+  "timestampMs": 70380,
+  "confidence": 0.9961112141609192
+ },
+ {
+  "text": " acostumbrados",
+  "startMs": 70640,
+  "endMs": 71280,
+  "timestampMs": 70640,
+  "confidence": 0.9979888498783112
+ },
+ {
+  "text": " de",
+  "startMs": 71280,
+  "endMs": 71520,
+  "timestampMs": 71280,
+  "confidence": 0.9597452282905579
+ },
+ {
+  "text": " que",
+  "startMs": 71520,
+  "endMs": 71960,
+  "timestampMs": 71520,
+  "confidence": 0.9921867847442627
+ },
+ {
+  "text": " la",
+  "startMs": 71960,
+  "endMs": 72160,
+  "timestampMs": 71960,
+  "confidence": 0.9262301325798035
+ },
+ {
+  "text": " parte",
+  "startMs": 72160,
+  "endMs": 72400,
+  "timestampMs": 72160,
+  "confidence": 0.9887756109237671
+ },
+ {
+  "text": " médica",
+  "startMs": 72400,
+  "endMs": 72880,
+  "timestampMs": 72400,
+  "confidence": 0.9959758222103119
+ },
+ {
+  "text": " es",
+  "startMs": 72880,
+  "endMs": 73120,
+  "timestampMs": 72880,
+  "confidence": 0.9901596903800964
+ },
+ {
+  "text": " un",
+  "startMs": 73120,
+  "endMs": 73240,
+  "timestampMs": 73120,
+  "confidence": 0.9978658556938171
+ },
+ {
+  "text": " tema",
+  "startMs": 73240,
+  "endMs": 73560,
+  "timestampMs": 73240,
+  "confidence": 0.9982357025146484
+ },
+ {
+  "text": " un",
+  "startMs": 73560,
+  "endMs": 73760,
+  "timestampMs": 73560,
+  "confidence": 0.9609300494194031
+ },
+ {
+  "text": " poco",
+  "startMs": 73760,
+  "endMs": 73920,
+  "timestampMs": 73760,
+  "confidence": 0.9984691739082336
+ },
+ {
+  "text": " altruista,",
+  "startMs": 73920,
+  "endMs": 74420,
+  "timestampMs": 73920,
+  "confidence": 0.9833700259526571
+ },
+ {
+  "text": " pero",
+  "startMs": 75020,
+  "endMs": 75020,
+  "timestampMs": 75020,
+  "confidence": 0.2674223482608795
+ },
+ {
+  "text": " los",
+  "startMs": 75020,
+  "endMs": 75340,
+  "timestampMs": 75020,
+  "confidence": 0.9844431281089783
+ },
+ {
+  "text": " médicos",
+  "startMs": 75340,
+  "endMs": 75580,
+  "timestampMs": 75340,
+  "confidence": 0.9995059370994568
+ },
+ {
+  "text": " también",
+  "startMs": 75580,
+  "endMs": 75900,
+  "timestampMs": 75580,
+  "confidence": 0.9976211190223694
+ },
+ {
+  "text": " comemos.",
+  "startMs": 75900,
+  "endMs": 76380,
+  "timestampMs": 75900,
+  "confidence": 0.9765903651714325
+ },
+ {
+  "text": " Entonces,",
+  "startMs": 76380,
+  "endMs": 76880,
+  "timestampMs": 76380,
+  "confidence": 0.4411657154560089
+ },
+ {
+  "text": " es",
+  "startMs": 77200,
+  "endMs": 77340,
+  "timestampMs": 77200,
+  "confidence": 0.9645253419876099
+ },
+ {
+  "text": " importante",
+  "startMs": 77340,
+  "endMs": 77780,
+  "timestampMs": 77340,
+  "confidence": 0.990571141242981
+ },
+ {
+  "text": " tener",
+  "startMs": 77780,
+  "endMs": 78100,
+  "timestampMs": 77780,
+  "confidence": 0.9939504861831665
+ },
+ {
+  "text": " esa",
+  "startMs": 78100,
+  "endMs": 78380,
+  "timestampMs": 78100,
+  "confidence": 0.9589866399765015
+ },
+ {
+  "text": " visión",
+  "startMs": 78380,
+  "endMs": 78720,
+  "timestampMs": 78380,
+  "confidence": 0.9912869036197662
+ },
+ {
+  "text": " de",
+  "startMs": 78720,
+  "endMs": 78900,
+  "timestampMs": 78720,
+  "confidence": 0.9604489207267761
+ },
+ {
+  "text": " que",
+  "startMs": 78900,
+  "endMs": 79300,
+  "timestampMs": 78900,
+  "confidence": 0.9780526757240295
+ },
+ {
+  "text": " si",
+  "startMs": 79300,
+  "endMs": 79480,
+  "timestampMs": 79300,
+  "confidence": 0.6827626824378967
+ },
+ {
+  "text": " estoy",
+  "startMs": 79480,
+  "endMs": 79620,
+  "timestampMs": 79480,
+  "confidence": 0.9850444793701172
+ },
+ {
+  "text": " brindando",
+  "startMs": 79620,
+  "endMs": 79980,
+  "timestampMs": 79620,
+  "confidence": 0.9914279381434122
+ },
+ {
+  "text": " un",
+  "startMs": 79980,
+  "endMs": 80200,
+  "timestampMs": 79980,
+  "confidence": 0.9918964505195618
+ },
+ {
+  "text": " servicio,",
+  "startMs": 80200,
+  "endMs": 80460,
+  "timestampMs": 80200,
+  "confidence": 0.9975524544715881
+ },
+ {
+  "text": " tengo",
+  "startMs": 80620,
+  "endMs": 80720,
+  "timestampMs": 80620,
+  "confidence": 0.987980306148529
+ },
+ {
+  "text": " que",
+  "startMs": 80720,
+  "endMs": 81000,
+  "timestampMs": 80720,
+  "confidence": 0.9969191551208496
+ },
+ {
+  "text": " cobrar",
+  "startMs": 81000,
+  "endMs": 81300,
+  "timestampMs": 81000,
+  "confidence": 0.9954660832881927
+ },
+ {
+  "text": " por",
+  "startMs": 81300,
+  "endMs": 81540,
+  "timestampMs": 81300,
+  "confidence": 0.9805660247802734
+ },
+ {
+  "text": " ese",
+  "startMs": 81540,
+  "endMs": 81760,
+  "timestampMs": 81540,
+  "confidence": 0.9790884852409363
+ },
+ {
+  "text": " servicio",
+  "startMs": 81760,
+  "endMs": 82180,
+  "timestampMs": 81760,
+  "confidence": 0.997632622718811
+ },
+ {
+  "text": " y",
+  "startMs": 82180,
+  "endMs": 82480,
+  "timestampMs": 82180,
+  "confidence": 0.9012544751167297
+ },
+ {
+  "text": " cobrar",
+  "startMs": 82480,
+  "endMs": 83080,
+  "timestampMs": 82480,
+  "confidence": 0.9982384741306305
+ },
+ {
+  "text": " correctamente.",
+  "startMs": 83080,
+  "endMs": 83980,
+  "timestampMs": 83080,
+  "confidence": 0.9900889694690704
+ },
+ {
+  "text": " Claro,",
+  "startMs": 84340,
+  "endMs": 84620,
+  "timestampMs": 84340,
+  "confidence": 0.5987613797187805
+ },
+ {
+  "text": " en",
+  "startMs": 84620,
+  "endMs": 84740,
+  "timestampMs": 84620,
+  "confidence": 0.5238484144210815
+ },
+ {
+  "text": " la",
+  "startMs": 84740,
+  "endMs": 84880,
+  "timestampMs": 84740,
+  "confidence": 0.99809330701828
+ },
+ {
+  "text": " parte",
+  "startMs": 84880,
+  "endMs": 85100,
+  "timestampMs": 84880,
+  "confidence": 0.992597222328186
+ },
+ {
+  "text": " financiera",
+  "startMs": 85100,
+  "endMs": 85460,
+  "timestampMs": 85100,
+  "confidence": 0.9973994195461273
+ },
+ {
+  "text": " es",
+  "startMs": 85460,
+  "endMs": 85720,
+  "timestampMs": 85460,
+  "confidence": 0.9307815432548523
+ },
+ {
+  "text": " importantísimo.",
+  "startMs": 85720,
+  "endMs": 86320,
+  "timestampMs": 85720,
+  "confidence": 0.9026468396186829
+ },
+ {
+  "text": " Muchos",
+  "startMs": 87040,
+  "endMs": 87520,
+  "timestampMs": 87040,
+  "confidence": 0.7580917179584503
+ },
+ {
+  "text": " doctores,",
+  "startMs": 87520,
+  "endMs": 88100,
+  "timestampMs": 87520,
+  "confidence": 0.9777166247367859
+ },
+ {
+  "text": " médicos,",
+  "startMs": 88180,
+  "endMs": 88680,
+  "timestampMs": 88180,
+  "confidence": 0.9974552094936371
+ },
+ {
+  "text": " odontólogos",
+  "startMs": 88920,
+  "endMs": 89200,
+  "timestampMs": 88920,
+  "confidence": 0.8154996111989021
+ },
+ {
+  "text": " no",
+  "startMs": 89200,
+  "endMs": 89360,
+  "timestampMs": 89200,
+  "confidence": 0.6587197780609131
+ },
+ {
+  "text": " les",
+  "startMs": 89360,
+  "endMs": 89580,
+  "timestampMs": 89360,
+  "confidence": 0.9887429475784302
+ },
+ {
+  "text": " gustan",
+  "startMs": 89580,
+  "endMs": 89900,
+  "timestampMs": 89580,
+  "confidence": 0.9949546456336975
+ },
+ {
+  "text": " los",
+  "startMs": 89900,
+  "endMs": 90100,
+  "timestampMs": 89900,
+  "confidence": 0.9954730868339539
+ },
+ {
+  "text": " números.",
+  "startMs": 90100,
+  "endMs": 90540,
+  "timestampMs": 90100,
+  "confidence": 0.997220516204834
+ },
+ {
+  "text": " Sí,",
+  "startMs": 91920,
+  "endMs": 92160,
+  "timestampMs": 91920,
+  "confidence": 0.8648422956466675
+ },
+ {
+  "text": " desde",
+  "startMs": 92240,
+  "endMs": 92480,
+  "timestampMs": 92240,
+  "confidence": 0.9717023372650146
+ },
+ {
+  "text": " la",
+  "startMs": 92480,
+  "endMs": 92740,
+  "timestampMs": 92480,
+  "confidence": 0.9986951947212219
+ },
+ {
+  "text": " facultad",
+  "startMs": 92740,
+  "endMs": 93120,
+  "timestampMs": 92740,
+  "confidence": 0.9173957109451294
+ },
+ {
+  "text": " realmente",
+  "startMs": 93120,
+  "endMs": 93580,
+  "timestampMs": 93120,
+  "confidence": 0.7496346235275269
+ },
+ {
+  "text": " es",
+  "startMs": 93580,
+  "endMs": 93960,
+  "timestampMs": 93580,
+  "confidence": 0.7032936215400696
+ },
+ {
+  "text": " como",
+  "startMs": 93960,
+  "endMs": 94180,
+  "timestampMs": 93960,
+  "confidence": 0.9869153499603271
+ },
+ {
+  "text": " que",
+  "startMs": 94180,
+  "endMs": 94340,
+  "timestampMs": 94180,
+  "confidence": 0.988532543182373
+ },
+ {
+  "text": " hay",
+  "startMs": 94340,
+  "endMs": 94420,
+  "timestampMs": 94340,
+  "confidence": 0.9884649515151978
+ },
+ {
+  "text": " una",
+  "startMs": 94420,
+  "endMs": 94640,
+  "timestampMs": 94420,
+  "confidence": 0.9975357055664062
+ },
+ {
+  "text": " creencia",
+  "startMs": 94640,
+  "endMs": 95000,
+  "timestampMs": 94640,
+  "confidence": 0.9882115125656128
+ },
+ {
+  "text": " de",
+  "startMs": 95000,
+  "endMs": 95220,
+  "timestampMs": 95000,
+  "confidence": 0.9515172839164734
+ },
+ {
+  "text": " que",
+  "startMs": 95220,
+  "endMs": 95400,
+  "timestampMs": 95220,
+  "confidence": 0.9895700216293335
+ },
+ {
+  "text": " me",
+  "startMs": 95400,
+  "endMs": 95520,
+  "timestampMs": 95400,
+  "confidence": 0.8977212309837341
+ },
+ {
+  "text": " hice",
+  "startMs": 95520,
+  "endMs": 95720,
+  "timestampMs": 95520,
+  "confidence": 0.9963244795799255
+ },
+ {
+  "text": " médico",
+  "startMs": 95720,
+  "endMs": 96020,
+  "timestampMs": 95720,
+  "confidence": 0.9930474162101746
+ },
+ {
+  "text": " porque",
+  "startMs": 96020,
+  "endMs": 96300,
+  "timestampMs": 96020,
+  "confidence": 0.9679373502731323
+ },
+ {
+  "text": " no",
+  "startMs": 96300,
+  "endMs": 96460,
+  "timestampMs": 96300,
+  "confidence": 0.9975919723510742
+ },
+ {
+  "text": " me",
+  "startMs": 96460,
+  "endMs": 96600,
+  "timestampMs": 96460,
+  "confidence": 0.9969557523727417
+ },
+ {
+  "text": " gustan",
+  "startMs": 96600,
+  "endMs": 96800,
+  "timestampMs": 96600,
+  "confidence": 0.9631539881229401
+ },
+ {
+  "text": " los",
+  "startMs": 96800,
+  "endMs": 97000,
+  "timestampMs": 96800,
+  "confidence": 0.998957633972168
+ },
+ {
+  "text": " números.",
+  "startMs": 97000,
+  "endMs": 97260,
+  "timestampMs": 97000,
+  "confidence": 0.9987654685974121
+ },
+ {
+  "text": " Sí,",
+  "startMs": 97640,
+  "endMs": 97800,
+  "timestampMs": 97640,
+  "confidence": 0.8841255307197571
+ },
+ {
+  "text": " sí",
+  "startMs": 97800,
+  "endMs": 97980,
+  "timestampMs": 97800,
+  "confidence": 0.5064946413040161
+ },
+ {
+  "text": " he",
+  "startMs": 97980,
+  "endMs": 98060,
+  "timestampMs": 97980,
+  "confidence": 0.1092328280210495
+ },
+ {
+  "text": " escuchado",
+  "startMs": 98060,
+  "endMs": 98520,
+  "timestampMs": 98060,
+  "confidence": 0.9959202408790588
+ },
+ {
+  "text": " esa.",
+  "startMs": 98520,
+  "endMs": 98740,
+  "timestampMs": 98520,
+  "confidence": 0.44069743156433105
+ },
+ {
+  "text": " Y",
+  "startMs": 99120,
+  "endMs": 99320,
+  "timestampMs": 99120,
+  "confidence": 0.9407537579536438
+ },
+ {
+  "text": " cuéntanos",
+  "startMs": 99320,
+  "endMs": 99580,
+  "timestampMs": 99320,
+  "confidence": 0.794099768002828
+ },
+ {
+  "text": " entonces",
+  "startMs": 99580,
+  "endMs": 99900,
+  "timestampMs": 99580,
+  "confidence": 0.7388456463813782
+ },
+ {
+  "text": " un",
+  "startMs": 99900,
+  "endMs": 100320,
+  "timestampMs": 99900,
+  "confidence": 0.32548651099205017
+ },
+ {
+  "text": " consejo",
+  "startMs": 100320,
+  "endMs": 100700,
+  "timestampMs": 100320,
+  "confidence": 0.9989592432975769
+ },
+ {
+  "text": " que",
+  "startMs": 100700,
+  "endMs": 100880,
+  "timestampMs": 100700,
+  "confidence": 0.994604766368866
+ },
+ {
+  "text": " le",
+  "startMs": 100880,
+  "endMs": 101040,
+  "timestampMs": 100880,
+  "confidence": 0.971436083316803
+ },
+ {
+  "text": " puedes",
+  "startMs": 101040,
+  "endMs": 101180,
+  "timestampMs": 101040,
+  "confidence": 0.9746788740158081
+ },
+ {
+  "text": " dar",
+  "startMs": 101180,
+  "endMs": 101420,
+  "timestampMs": 101180,
+  "confidence": 0.9960423707962036
+ },
+ {
+  "text": " a",
+  "startMs": 101420,
+  "endMs": 101660,
+  "timestampMs": 101420,
+  "confidence": 0.9956828355789185
+ },
+ {
+  "text": " los",
+  "startMs": 101660,
+  "endMs": 101820,
+  "timestampMs": 101660,
+  "confidence": 0.9976478219032288
+ },
+ {
+  "text": " emprendedores",
+  "startMs": 101820,
+  "endMs": 102260,
+  "timestampMs": 101820,
+  "confidence": 0.9973109513521194
+ },
+ {
+  "text": " sobre",
+  "startMs": 102260,
+  "endMs": 102500,
+  "timestampMs": 102260,
+  "confidence": 0.45418140292167664
+ },
+ {
+  "text": " todo",
+  "startMs": 102500,
+  "endMs": 102600,
+  "timestampMs": 102500,
+  "confidence": 0.9951815009117126
+ },
+ {
+  "text": " del",
+  "startMs": 102600,
+  "endMs": 102740,
+  "timestampMs": 102600,
+  "confidence": 0.40548446774482727
+ },
+ {
+  "text": " sector",
+  "startMs": 102740,
+  "endMs": 102980,
+  "timestampMs": 102740,
+  "confidence": 0.9935636520385742
+ },
+ {
+  "text": " salud",
+  "startMs": 102980,
+  "endMs": 103400,
+  "timestampMs": 102980,
+  "confidence": 0.9702607989311218
+ },
+ {
+  "text": " desde",
+  "startMs": 103400,
+  "endMs": 103860,
+  "timestampMs": 103400,
+  "confidence": 0.8162282705307007
+ },
+ {
+  "text": " la",
+  "startMs": 103860,
+  "endMs": 104020,
+  "timestampMs": 103860,
+  "confidence": 0.9988823533058167
+ },
+ {
+  "text": " parte",
+  "startMs": 104020,
+  "endMs": 104220,
+  "timestampMs": 104020,
+  "confidence": 0.9956898093223572
+ },
+ {
+  "text": " financiera.",
+  "startMs": 104220,
+  "endMs": 104880,
+  "timestampMs": 104220,
+  "confidence": 0.9992920458316803
+ },
+ {
+  "text": " Lo",
+  "startMs": 104880,
+  "endMs": 105400,
+  "timestampMs": 104880,
+  "confidence": 0.1181996539235115
+ },
+ {
+  "text": " que",
+  "startMs": 105400,
+  "endMs": 105540,
+  "timestampMs": 105400,
+  "confidence": 0.9934353828430176
+ },
+ {
+  "text": " te",
+  "startMs": 105540,
+  "endMs": 105740,
+  "timestampMs": 105540,
+  "confidence": 0.9026986360549927
+ },
+ {
+  "text": " decía,",
+  "startMs": 105740,
+  "endMs": 105960,
+  "timestampMs": 105740,
+  "confidence": 0.9901323318481445
+ },
+ {
+  "text": " que",
+  "startMs": 106160,
+  "endMs": 106220,
+  "timestampMs": 106160,
+  "confidence": 0.9736267924308777
+ },
+ {
+  "text": " todos",
+  "startMs": 106220,
+  "endMs": 106360,
+  "timestampMs": 106220,
+  "confidence": 0.9327734708786011
+ },
+ {
+  "text": " los",
+  "startMs": 106360,
+  "endMs": 106680,
+  "timestampMs": 106360,
+  "confidence": 0.9904795289039612
+ },
+ {
+  "text": " médicos",
+  "startMs": 106680,
+  "endMs": 107060,
+  "timestampMs": 106680,
+  "confidence": 0.9815330803394318
+ },
+ {
+  "text": " realmente,",
+  "startMs": 107060,
+  "endMs": 107460,
+  "timestampMs": 107060,
+  "confidence": 0.43544575572013855
+ },
+ {
+  "text": " si",
+  "startMs": 107620,
+  "endMs": 107620,
+  "timestampMs": 107620,
+  "confidence": 0.6661851406097412
+ },
+ {
+  "text": " no",
+  "startMs": 107620,
+  "endMs": 107800,
+  "timestampMs": 107620,
+  "confidence": 0.9957152009010315
+ },
+ {
+  "text": " tengan",
+  "startMs": 107800,
+  "endMs": 107980,
+  "timestampMs": 107800,
+  "confidence": 0.8542759418487549
+ },
+ {
+  "text": " una",
+  "startMs": 107980,
+  "endMs": 108260,
+  "timestampMs": 107980,
+  "confidence": 0.9919557571411133
+ },
+ {
+  "text": " empresa,",
+  "startMs": 108260,
+  "endMs": 108500,
+  "timestampMs": 108260,
+  "confidence": 0.9965676069259644
+ },
+ {
+  "text": " recuerden",
+  "startMs": 108740,
+  "endMs": 109020,
+  "timestampMs": 108740,
+  "confidence": 0.98459792137146
+ },
+ {
+  "text": " que",
+  "startMs": 109020,
+  "endMs": 109280,
+  "timestampMs": 109020,
+  "confidence": 0.9881097078323364
+ },
+ {
+  "text": " nuestro",
+  "startMs": 109280,
+  "endMs": 109720,
+  "timestampMs": 109280,
+  "confidence": 0.9786141514778137
+ },
+ {
+  "text": " servicio",
+  "startMs": 109720,
+  "endMs": 110260,
+  "timestampMs": 109720,
+  "confidence": 0.9943863153457642
+ },
+ {
+  "text": " es",
+  "startMs": 110260,
+  "endMs": 110620,
+  "timestampMs": 110260,
+  "confidence": 0.9412152171134949
+ },
+ {
+  "text": " nuestro",
+  "startMs": 110620,
+  "endMs": 110900,
+  "timestampMs": 110620,
+  "confidence": 0.9945058226585388
+ },
+ {
+  "text": " negocio",
+  "startMs": 110900,
+  "endMs": 111360,
+  "timestampMs": 110900,
+  "confidence": 0.9970856606960297
+ },
+ {
+  "text": " principal.",
+  "startMs": 111360,
+  "endMs": 111940,
+  "timestampMs": 111360,
+  "confidence": 0.9960261583328247
+ },
+ {
+  "text": " O",
+  "startMs": 112120,
+  "endMs": 112120,
+  "timestampMs": 112120,
+  "confidence": 0.8908819556236267
+ },
+ {
+  "text": " sea,",
+  "startMs": 112120,
+  "endMs": 112240,
+  "timestampMs": 112120,
+  "confidence": 0.919397234916687
+ },
+ {
+  "text": " brindar",
+  "startMs": 112380,
+  "endMs": 112620,
+  "timestampMs": 112380,
+  "confidence": 0.9772342244784037
+ },
+ {
+  "text": " el",
+  "startMs": 112620,
+  "endMs": 112880,
+  "timestampMs": 112620,
+  "confidence": 0.9921334981918335
+ },
+ {
+  "text": " servicio",
+  "startMs": 112880,
+  "endMs": 113240,
+  "timestampMs": 112880,
+  "confidence": 0.9981740713119507
+ },
+ {
+  "text": " y",
+  "startMs": 113240,
+  "endMs": 113480,
+  "timestampMs": 113240,
+  "confidence": 0.6485728025436401
+ },
+ {
+  "text": " si",
+  "startMs": 113480,
+  "endMs": 113640,
+  "timestampMs": 113480,
+  "confidence": 0.9722328782081604
+ },
+ {
+  "text": " tenemos",
+  "startMs": 113640,
+  "endMs": 113880,
+  "timestampMs": 113640,
+  "confidence": 0.9976880550384521
+ },
+ {
+  "text": " un",
+  "startMs": 113880,
+  "endMs": 114280,
+  "timestampMs": 113880,
+  "confidence": 0.9944449067115784
+ },
+ {
+  "text": " consultorio,",
+  "startMs": 114280,
+  "endMs": 114780,
+  "timestampMs": 114280,
+  "confidence": 0.996710737546285
+ },
+ {
+  "text": " si",
+  "startMs": 114860,
+  "endMs": 114940,
+  "timestampMs": 114860,
+  "confidence": 0.9933413863182068
+ },
+ {
+  "text": " damos",
+  "startMs": 114940,
+  "endMs": 115200,
+  "timestampMs": 114940,
+  "confidence": 0.9945101737976074
+ },
+ {
+  "text": " consulta",
+  "startMs": 115200,
+  "endMs": 115660,
+  "timestampMs": 115200,
+  "confidence": 0.9944186508655548
+ },
+ {
+  "text": " médica,",
+  "startMs": 115660,
+  "endMs": 116180,
+  "timestampMs": 115660,
+  "confidence": 0.99443119764328
+ },
+ {
+  "text": " ya",
+  "startMs": 116440,
+  "endMs": 116480,
+  "timestampMs": 116440,
+  "confidence": 0.9737207293510437
+ },
+ {
+  "text": " se",
+  "startMs": 116480,
+  "endMs": 116660,
+  "timestampMs": 116480,
+  "confidence": 0.9959245920181274
+ },
+ {
+  "text": " transforma",
+  "startMs": 116660,
+  "endMs": 117040,
+  "timestampMs": 116660,
+  "confidence": 0.9183381199836731
+ },
+ {
+  "text": " en",
+  "startMs": 117040,
+  "endMs": 117200,
+  "timestampMs": 117040,
+  "confidence": 0.9886389970779419
+ },
+ {
+  "text": " un",
+  "startMs": 117200,
+  "endMs": 117400,
+  "timestampMs": 117200,
+  "confidence": 0.9943998456001282
+ },
+ {
+  "text": " negocio.",
+  "startMs": 117400,
+  "endMs": 117640,
+  "timestampMs": 117400,
+  "confidence": 0.9952800273895264
+ },
+ {
+  "text": " Entonces,",
+  "startMs": 117680,
+  "endMs": 117880,
+  "timestampMs": 117680,
+  "confidence": 0.9778062701225281
+ },
+ {
+  "text": " la",
+  "startMs": 117960,
+  "endMs": 118120,
+  "timestampMs": 117960,
+  "confidence": 0.990250289440155
+ },
+ {
+  "text": " capacitación",
+  "startMs": 118120,
+  "endMs": 118780,
+  "timestampMs": 118120,
+  "confidence": 0.998931884765625
+ },
+ {
+  "text": " constante",
+  "startMs": 118780,
+  "endMs": 119160,
+  "timestampMs": 118780,
+  "confidence": 0.9865311980247498
+ },
+ {
+  "text": " en",
+  "startMs": 119160,
+  "endMs": 119420,
+  "timestampMs": 119160,
+  "confidence": 0.9800374507904053
+ },
+ {
+  "text": " temas",
+  "startMs": 119420,
+  "endMs": 119700,
+  "timestampMs": 119420,
+  "confidence": 0.9983501434326172
+ },
+ {
+  "text": " no",
+  "startMs": 119700,
+  "endMs": 120220,
+  "timestampMs": 119700,
+  "confidence": 0.685543417930603
+ },
+ {
+  "text": " solamente",
+  "startMs": 120220,
+  "endMs": 120660,
+  "timestampMs": 120220,
+  "confidence": 0.9937752485275269
+ },
+ {
+  "text": " financieros,",
+  "startMs": 120660,
+  "endMs": 121380,
+  "timestampMs": 120660,
+  "confidence": 0.9658856987953186
+ },
+ {
+  "text": " sino",
+  "startMs": 121500,
+  "endMs": 121680,
+  "timestampMs": 121500,
+  "confidence": 0.9851409196853638
+ },
+ {
+  "text": " también",
+  "startMs": 121680,
+  "endMs": 122080,
+  "timestampMs": 121680,
+  "confidence": 0.9790175557136536
+ },
+ {
+  "text": " de",
+  "startMs": 122080,
+  "endMs": 122560,
+  "timestampMs": 122080,
+  "confidence": 0.9408878684043884
+ },
+ {
+  "text": " cómo",
+  "startMs": 122560,
+  "endMs": 122720,
+  "timestampMs": 122560,
+  "confidence": 0.9562816619873047
+ },
+ {
+  "text": " manejar",
+  "startMs": 122720,
+  "endMs": 123160,
+  "timestampMs": 122720,
+  "confidence": 0.9945692121982574
+ },
+ {
+  "text": " un",
+  "startMs": 123160,
+  "endMs": 123300,
+  "timestampMs": 123160,
+  "confidence": 0.9968094229698181
+ },
+ {
+  "text": " equipo",
+  "startMs": 123300,
+  "endMs": 123580,
+  "timestampMs": 123300,
+  "confidence": 0.9989973902702332
+ },
+ {
+  "text": " de",
+  "startMs": 123580,
+  "endMs": 123840,
+  "timestampMs": 123580,
+  "confidence": 0.9905595183372498
+ },
+ {
+  "text": " trabajo",
+  "startMs": 123840,
+  "endMs": 124200,
+  "timestampMs": 123840,
+  "confidence": 0.9966489672660828
+ },
+ {
+  "text": " porque",
+  "startMs": 124200,
+  "endMs": 124500,
+  "timestampMs": 124200,
+  "confidence": 0.2985381782054901
+ },
+ {
+  "text": " tenemos",
+  "startMs": 124500,
+  "endMs": 124880,
+  "timestampMs": 124500,
+  "confidence": 0.9959403276443481
+ },
+ {
+  "text": " asistentes,",
+  "startMs": 124880,
+  "endMs": 125700,
+  "timestampMs": 124880,
+  "confidence": 0.9897123177846273
+ },
+ {
+  "text": " tenemos",
+  "startMs": 126060,
+  "endMs": 126300,
+  "timestampMs": 126060,
+  "confidence": 0.9952951073646545
+ },
+ {
+  "text": " gente",
+  "startMs": 126300,
+  "endMs": 126520,
+  "timestampMs": 126300,
+  "confidence": 0.9991445541381836
+ },
+ {
+  "text": " que",
+  "startMs": 126520,
+  "endMs": 126720,
+  "timestampMs": 126520,
+  "confidence": 0.9984525442123413
+ },
+ {
+  "text": " nos",
+  "startMs": 126720,
+  "endMs": 126880,
+  "timestampMs": 126720,
+  "confidence": 0.9986818432807922
+ },
+ {
+  "text": " ayuda,",
+  "startMs": 126880,
+  "endMs": 127180,
+  "timestampMs": 126880,
+  "confidence": 0.9885486364364624
+ },
+ {
+  "text": " cómo",
+  "startMs": 127320,
+  "endMs": 127480,
+  "timestampMs": 127320,
+  "confidence": 0.9574282169342041
+ },
+ {
+  "text": " vender",
+  "startMs": 127480,
+  "endMs": 127880,
+  "timestampMs": 127480,
+  "confidence": 0.9989953637123108
+ },
+ {
+  "text": " el",
+  "startMs": 127880,
+  "endMs": 128200,
+  "timestampMs": 127880,
+  "confidence": 0.9981813430786133
+ },
+ {
+  "text": " servicio",
+  "startMs": 128200,
+  "endMs": 128640,
+  "timestampMs": 128200,
+  "confidence": 0.9987918734550476
+ },
+ {
+  "text": " y",
+  "startMs": 128640,
+  "endMs": 129060,
+  "timestampMs": 128640,
+  "confidence": 0.9038755893707275
+ },
+ {
+  "text": " cómo",
+  "startMs": 129060,
+  "endMs": 129280,
+  "timestampMs": 129060,
+  "confidence": 0.974884033203125
+ },
+ {
+  "text": " crear",
+  "startMs": 129280,
+  "endMs": 129560,
+  "timestampMs": 129280,
+  "confidence": 0.981391429901123
+ },
+ {
+  "text": " sistemas",
+  "startMs": 129560,
+  "endMs": 130100,
+  "timestampMs": 129560,
+  "confidence": 0.9983944296836853
+ },
+ {
+  "text": " que",
+  "startMs": 130100,
+  "endMs": 130480,
+  "timestampMs": 130100,
+  "confidence": 0.9939013719558716
+ },
+ {
+  "text": " nos",
+  "startMs": 130480,
+  "endMs": 130740,
+  "timestampMs": 130480,
+  "confidence": 0.9976258873939514
+ },
+ {
+  "text": " permitan",
+  "startMs": 130740,
+  "endMs": 131320,
+  "timestampMs": 130740,
+  "confidence": 0.9741663932800293
+ },
+ {
+  "text": " hacerlo",
+  "startMs": 131320,
+  "endMs": 131660,
+  "timestampMs": 131320,
+  "confidence": 0.8237301111221313
+ },
+ {
+  "text": " más",
+  "startMs": 131660,
+  "endMs": 131980,
+  "timestampMs": 131660,
+  "confidence": 0.9970640540122986
+ },
+ {
+  "text": " fácil",
+  "startMs": 131980,
+  "endMs": 132260,
+  "timestampMs": 131980,
+  "confidence": 0.9991680383682251
+ },
+ {
+  "text": " al",
+  "startMs": 132260,
+  "endMs": 132460,
+  "timestampMs": 132260,
+  "confidence": 0.9581623673439026
+ },
+ {
+  "text": " trabajo",
+  "startMs": 132460,
+  "endMs": 132780,
+  "timestampMs": 132460,
+  "confidence": 0.9986752867698669
+ },
+ {
+  "text": " y",
+  "startMs": 132780,
+  "endMs": 133000,
+  "timestampMs": 132780,
+  "confidence": 0.7329656481742859
+ },
+ {
+  "text": " tener",
+  "startMs": 133000,
+  "endMs": 133180,
+  "timestampMs": 133000,
+  "confidence": 0.939582109451294
+ },
+ {
+  "text": " obviamente",
+  "startMs": 133180,
+  "endMs": 133860,
+  "timestampMs": 133180,
+  "confidence": 0.7142926454544067
+ },
+ {
+  "text": " más",
+  "startMs": 133860,
+  "endMs": 134080,
+  "timestampMs": 133860,
+  "confidence": 0.9217158555984497
+ },
+ {
+  "text": " pacientes",
+  "startMs": 134080,
+  "endMs": 134580,
+  "timestampMs": 134080,
+  "confidence": 0.9884600341320038
+ },
+ {
+  "text": " y",
+  "startMs": 134580,
+  "endMs": 134800,
+  "timestampMs": 134580,
+  "confidence": 0.7633728384971619
+ },
+ {
+  "text": " atender",
+  "startMs": 134800,
+  "endMs": 135080,
+  "timestampMs": 134800,
+  "confidence": 0.9565348625183105
+ },
+ {
+  "text": " más",
+  "startMs": 135080,
+  "endMs": 135300,
+  "timestampMs": 135080,
+  "confidence": 0.9814027547836304
+ },
+ {
+  "text": " pacientes",
+  "startMs": 135300,
+  "endMs": 135700,
+  "timestampMs": 135300,
+  "confidence": 0.9979806840419769
+ },
+ {
+  "text": " en",
+  "startMs": 135700,
+  "endMs": 135880,
+  "timestampMs": 135700,
+  "confidence": 0.9952964186668396
+ },
+ {
+  "text": " el",
+  "startMs": 135880,
+  "endMs": 136020,
+  "timestampMs": 135880,
+  "confidence": 0.9974769949913025
+ },
+ {
+  "text": " día",
+  "startMs": 136020,
+  "endMs": 136180,
+  "timestampMs": 136020,
+  "confidence": 0.9902532696723938
+ },
+ {
+  "text": " son",
+  "startMs": 136180,
+  "endMs": 136800,
+  "timestampMs": 136180,
+  "confidence": 0.5603647232055664
+ },
+ {
+  "text": " de",
+  "startMs": 136800,
+  "endMs": 136980,
+  "timestampMs": 136800,
+  "confidence": 0.9951973557472229
+ },
+ {
+  "text": " vital",
+  "startMs": 136980,
+  "endMs": 137160,
+  "timestampMs": 136980,
+  "confidence": 0.9808170795440674
+ },
+ {
+  "text": " importancia.",
+  "startMs": 137160,
+  "endMs": 137700,
+  "timestampMs": 137160,
+  "confidence": 0.9885132610797882
+ },
+ {
+  "text": " Así",
+  "startMs": 137840,
+  "endMs": 137840,
+  "timestampMs": 137840,
+  "confidence": 0.925665557384491
+ },
+ {
+  "text": " que",
+  "startMs": 137840,
+  "endMs": 137980,
+  "timestampMs": 137840,
+  "confidence": 0.991198718547821
+ },
+ {
+  "text": " no",
+  "startMs": 137980,
+  "endMs": 138160,
+  "timestampMs": 137980,
+  "confidence": 0.9478633999824524
+ },
+ {
+  "text": " olviden",
+  "startMs": 138160,
+  "endMs": 138380,
+  "timestampMs": 138160,
+  "confidence": 0.9963282644748688
+ },
+ {
+  "text": " capacitarse",
+  "startMs": 138380,
+  "endMs": 139100,
+  "timestampMs": 138380,
+  "confidence": 0.9553181131680807
+ },
+ {
+  "text": " siempre.",
+  "startMs": 139100,
+  "endMs": 139380,
+  "timestampMs": 139100,
+  "confidence": 0.9934779405593872
+ },
+ {
+  "text": " No",
+  "startMs": 139640,
+  "endMs": 139780,
+  "timestampMs": 139640,
+  "confidence": 0.764794111251831
+ },
+ {
+  "text": " olviden",
+  "startMs": 139780,
+  "endMs": 140120,
+  "timestampMs": 139780,
+  "confidence": 0.9973046481609344
+ },
+ {
+  "text": " para",
+  "startMs": 140120,
+  "endMs": 140340,
+  "timestampMs": 140120,
+  "confidence": 0.9523350596427917
+ },
+ {
+  "text": " que",
+  "startMs": 140340,
+  "endMs": 140500,
+  "timestampMs": 140340,
+  "confidence": 0.9927734732627869
+ },
+ {
+  "text": " logren",
+  "startMs": 140500,
+  "endMs": 140660,
+  "timestampMs": 140500,
+  "confidence": 0.9185101687908173
+ },
+ {
+  "text": " lo",
+  "startMs": 140660,
+  "endMs": 140800,
+  "timestampMs": 140660,
+  "confidence": 0.9936058521270752
+ },
+ {
+  "text": " que",
+  "startMs": 140800,
+  "endMs": 140880,
+  "timestampMs": 140800,
+  "confidence": 0.998974084854126
+ },
+ {
+  "text": " habrá",
+  "startMs": 140880,
+  "endMs": 141060,
+  "timestampMs": 140880,
+  "confidence": 0.9469503462314606
+ },
+ {
+  "text": " logrado.",
+  "startMs": 141060,
+  "endMs": 141480,
+  "timestampMs": 141060,
+  "confidence": 0.9981506168842316
+ }
+]
