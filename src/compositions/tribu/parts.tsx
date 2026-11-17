@@ -32,7 +32,7 @@ export const PunchZoom: React.FC<{
   const {fps} = useVideoConfig();
   let scale = interpolate(frame, [0, duration], base, clamp);
   for (const p of punches) {
-    if (frame >= p) scale += 0.07 * spring({frame: frame - p, fps, config: {damping: 14, stiffness: 180}});
+    if (frame >= p) scale += 0.05 * spring({frame: frame - p, fps, config: {damping: 14, stiffness: 180}});
   }
   if (entryPunch) {
     scale += interpolate(spring({frame, fps, config: {damping: 18, stiffness: 200}}), [0, 1], [0.1, 0]);
@@ -65,9 +65,12 @@ export const LayeredClip: React.FC<{
   entryPunch?: boolean;
   volume?: (f: number) => number;
   cutoutUntil?: number;
+  /** Person cut-out on top of `behind`. Off by default: the dark wall map behind Jorge's dark
+   * hair makes segmentation leak map pieces over the titles, so titles sit ABOVE his head instead. */
+  useCutout?: boolean;
   behind?: React.ReactNode;
   front?: React.ReactNode;
-}> = ({clip, trimFrames, duration, punches, base, entryPunch, volume, cutoutUntil, behind, front}) => {
+}> = ({clip, trimFrames, duration, punches, base, entryPunch, volume, cutoutUntil, useCutout = false, behind, front}) => {
   const zoom = {duration, punches, base, entryPunch};
   return (
     <AbsoluteFill>
@@ -76,11 +79,13 @@ export const LayeredClip: React.FC<{
       </PunchZoom>
       <Vignette />
       {behind}
-      <Sequence durationInFrames={cutoutUntil ?? duration} name="Jorge recortado (capa frontal)">
-        <PunchZoom {...zoom}>
-          <OffthreadVideo src={staticFile(`assets/cutout/${clip}.webm`)} trimBefore={trimFrames} transparent muted />
-        </PunchZoom>
-      </Sequence>
+      {useCutout ? (
+        <Sequence durationInFrames={cutoutUntil ?? duration} name="Jorge recortado (capa frontal)">
+          <PunchZoom {...zoom}>
+            <OffthreadVideo src={staticFile(`assets/cutout/${clip}.webm`)} trimBefore={trimFrames} transparent muted />
+          </PunchZoom>
+        </Sequence>
+      ) : null}
       {front}
     </AbsoluteFill>
   );
@@ -107,10 +112,9 @@ export const BehindPanel: React.FC<{
     <AbsoluteFill style={{alignItems: "center", pointerEvents: "none"}}>
       <div
         style={{
-          marginTop: 190,
+          marginTop: 130,
           width: 900,
-          height: 410,
-          padding: "36px 50px 0",
+          padding: "30px 50px 28px",
           boxSizing: "border-box",
           borderRadius: 34,
           background: BRAND.navyGlass,
@@ -211,7 +215,7 @@ export const PanelText: React.FC<{
 };
 
 export const LogoInPanel: React.FC = () => (
-  <Img src={staticFile("assets/brand/logo-tribu.png")} style={{width: 720, display: "block", margin: "6px auto 0"}} />
+  <Img src={staticFile("assets/brand/logo-tribu.png")} style={{width: 560, display: "block", margin: "0 auto"}} />
 );
 
 /** Full-screen b-roll moment: blurred backdrop + framed clip + headline. */

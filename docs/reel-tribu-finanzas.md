@@ -28,3 +28,8 @@
 - Composición `TribuHookPreview` (src/compositions/tribu/HookPreview.tsx): IMG_2320 completo + inicio de IMG_2321 hasta "Es una membresía".
 - Render: `npx remotion render TribuHookPreview out/muestra-gancho-tribu.mp4 --browser-executable=/opt/pw-browsers/chromium`, luego loudnorm I=-14 con ffmpeg.
 - Subtítulos con tiempos DTW (whisper.cpp -dtw medium). Montserrat local en public/fonts.
+
+## MÁSTER ENTREGADO
+- `out/Tribu-Finanzas-en-Accion-Reel.mp4` (51.5 s, 1080x1920, 30 fps, -15 LUFS, sin música).
+- Composición `TribuMaster`. Render: `npx remotion render TribuMaster out/x.mp4 --browser-executable=/opt/pw-browsers/chromium --crf=17` + loudnorm I=-14.
+- Recorte de Jorge (texto detrás) descartado: el mapa oscuro detrás del cabello hace que la segmentación filtre pedazos del mapa sobre los títulos. Los recuadros van compactos ARRIBA de la cabeza (nunca tocan cara/frente). La capa sigue disponible con `useCutout`.
