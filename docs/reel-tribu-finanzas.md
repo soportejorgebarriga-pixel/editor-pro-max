@@ -18,5 +18,5 @@
 
 ## Pendientes
 - Música: NO lleva; el usuario la agrega al publicar. Entregar solo con voz.
-7. Originales en mejor calidad (opcional)
+- Calidad: no hay originales. Clips mejorados (denoise + upscale lanczos 1080x1920 + unsharp + contraste) en public/assets/enhanced/. Usar ESOS en la edición.
 8. Transcripción (bloqueada por red)
