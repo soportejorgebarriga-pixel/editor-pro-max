@@ -141,7 +141,7 @@ export const Camera: React.FC<{
 // Plan de encuadres (tiempos del video original). Nunca dos iguales seguidos.
 const HOOK_SHOTS: Shot[] = [{at: 0, mode: "GV", punch: h(75.9)}];
 const MAIN_PLAN: [number, Mode, number?][] = [
-  [4.52, "WIDE"],
+  [4.86, "WIDE"],
   [7.82, "CV"],
   [10.08, "MED"],
   [12.34, "CV"],
@@ -594,7 +594,7 @@ export const TribuFinanciera: React.FC = () => {
         start={m(99.9)}
         end={m(103.4)}
         fontSize={140}
-        lines={[{text: <GoldWord at={m(100.32)}>EL CONSEJO</GoldWord>, at: m(99.95)}]}
+        lines={[{text: <>EL <GoldWord at={m(100.32)}>CONSEJO</GoldWord></>, at: m(99.95)}]}
       />
       <ConnectDots
         start={m(109.3)}

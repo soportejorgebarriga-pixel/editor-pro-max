@@ -3,7 +3,7 @@ import json, re, sys, numpy as np
 ROOT=sys.argv[1]
 caps=json.load(open(f"{ROOT}/public/captions.json"))
 faces=json.load(open(f"{ROOT}/scripts/tribu/faces.json"))
-HOOK=(72.06,76.50); MAIN=(4.52,139.48)
+HOOK=(72.06,76.50); MAIN=(4.86,139.48)
 
 # --- palabras con correcciones ---
 W=[{"w":c["text"].strip(),"s":c["startMs"]/1000,"e":c["endMs"]/1000} for c in caps]
