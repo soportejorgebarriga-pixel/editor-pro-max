@@ -1,4 +1,4 @@
-import {Composition, Folder} from "remotion";
+import {Composition, Folder, Still} from "remotion";
 
 // Compositions
 import {ShowcaseComposition} from "./compositions/Showcase";
@@ -22,6 +22,7 @@ import {PodcastClip} from "./templates/editing/PodcastClip";
 
 // Canal de Jorge
 import {TribuFinanciera, TRIBU_DURATION} from "./compositions/tribu/TribuFinanciera";
+import {TribuPortada} from "./compositions/tribu/Portada";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -35,6 +36,7 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Still id="TribuFinancieraPortada" component={TribuPortada} width={1080} height={1920} />
       </Folder>
 
       <Folder name="Examples">

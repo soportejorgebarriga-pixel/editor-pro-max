@@ -64,8 +64,8 @@ const W = 1080;
 const H = 1920;
 
 // ── Cámara virtual: encuadres que siguen las caras ──────────────────────────
-type Mode = "WIDE" | "MED" | "CJ" | "CV" | "GA" | "GJ" | "GV";
-type Shot = {at: number; mode: Mode; punch?: number};
+type Mode = "WIDE" | "MED" | "CJ" | "CV" | "GA" | "GJ" | "GV" | "COVER";
+export type Shot = {at: number; mode: Mode; punch?: number};
 
 const MODES: Record<Mode, {z: number; who: "J" | "V" | "both"; sx: number; sy: number}> = {
   WIDE: {z: 1.0, who: "both", sx: -1, sy: -1},
@@ -76,6 +76,7 @@ const MODES: Record<Mode, {z: number; who: "J" | "V" | "both"; sx: number; sy: n
   GA: {z: 1.22, who: "both", sx: 520, sy: 900},
   GJ: {z: 1.5, who: "J", sx: 500, sy: 920},
   GV: {z: 1.5, who: "V", sx: 500, sy: 920},
+  COVER: {z: 1.6, who: "both", sx: 540, sy: 1010},
 };
 
 const face = (arr: number[][], t: number) => {
@@ -86,7 +87,7 @@ const face = (arr: number[][], t: number) => {
   return [a[0] + (b[0] - a[0]) * k, a[1] + (b[1] - a[1]) * k];
 };
 
-const Camera: React.FC<{
+export const Camera: React.FC<{
   shots: Shot[];
   srcStart: number;
   offset: number;
@@ -334,7 +335,7 @@ const SFX_VOL: Record<Sfx[1], number> = {
 };
 
 // ── Fuentes de marca ────────────────────────────────────────────────────────
-const useBrandFonts = () => {
+export const useBrandFonts = () => {
   const [handle] = useState(() => delayRender("fuentes"));
   useEffect(() => {
     const faces = [
