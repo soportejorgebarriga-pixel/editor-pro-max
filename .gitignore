@@ -33,3 +33,6 @@ dist/
 .trae/
 .windsurf/
 .zencoder/
+
+# Material de marca Arbat (fuentes con licencia, logo, clips crudos): se descarga de Drive, no se versiona
+public/assets/arbat/
