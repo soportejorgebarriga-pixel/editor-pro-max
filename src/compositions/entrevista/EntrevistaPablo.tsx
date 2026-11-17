@@ -36,7 +36,7 @@ const VIDEO = staticFile("assets/entrevista_hd.mp4");
 const clamp = {extrapolateLeft: "clamp", extrapolateRight: "clamp"} as const;
 
 // ---------- fonts ----------
-const useBrandFonts = () => {
+export const useBrandFonts = () => {
   const [handle] = useState(() => delayRender("brand fonts"));
   useEffect(() => {
     const fonts = [

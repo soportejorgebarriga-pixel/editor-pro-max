@@ -1,4 +1,4 @@
-import {Composition, Folder} from "remotion";
+import {Composition, Folder, Still} from "remotion";
 
 // Compositions
 import {ShowcaseComposition} from "./compositions/Showcase";
@@ -22,6 +22,7 @@ import {PodcastClip} from "./templates/editing/PodcastClip";
 
 // Client projects
 import {EntrevistaPablo} from "./compositions/entrevista/EntrevistaPablo";
+import {PortadaPablo} from "./compositions/entrevista/Portada";
 import {TOTAL_FRAMES as ENTREVISTA_FRAMES} from "./compositions/entrevista/timeline";
 
 export const RemotionRoot: React.FC = () => {
@@ -36,6 +37,7 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Still id="PortadaPablo" component={PortadaPablo} width={1080} height={1920} defaultProps={{src: 5.0}} />
       </Folder>
 
       <Folder name="Examples">

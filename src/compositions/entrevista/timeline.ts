@@ -158,7 +158,7 @@ export const GFX: GfxCue[] = [
     seg: "main", src: 33.8, dur: 4.0, zone: "low",
     g: {kind: "kinetic", size: 118, lines: [{t: "TAREAS DE ALTA"}, {t: "RENTABILIDAD", gold: true}]},
   },
-  {seg: "main", src: 37.9, dur: 5.6, zone: "low", g: {kind: "definition"}},
+  {seg: "main", src: 40.2, dur: 3.35, zone: "low", g: {kind: "definition"}},
   {seg: "main", src: 43.6, dur: 9.3, zone: "low", g: {kind: "split", bajaAt: 44.3, delegarAt: 51.74}},
   {seg: "main", src: 53.1, dur: 6.6, zone: "low", g: {kind: "example"}},
   {seg: "main", src: 61.5, dur: 4.7, zone: "top", g: {kind: "tag", text: "LA PREGUNTA CLAVE"}},

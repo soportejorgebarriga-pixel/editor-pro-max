@@ -387,14 +387,14 @@ const Definition: React.FC<{total: number}> = ({total}) => {
       <Reveal p={prog(t, 0.05, 0.45)}>
         <div style={{fontFamily: DMSANS, fontWeight: 700, fontSize: 34, color: C.green, letterSpacing: 3}}>ALTA RENTABILIDAD =</div>
       </Reveal>
-      <Reveal p={prog(t, 2.6, 0.45)}>
+      <Reveal p={prog(t, 0.2, 0.45)}>
         <div style={{fontFamily: ANTON, fontSize: 64, color: C.white, margin: "6px 0 20px"}}>
           TE PERMITE <span style={{color: C.gold}}>GANAR</span> O AHORRAR
         </div>
       </Reveal>
       <div style={{display: "flex", gap: 18}}>
-        {chip(4.1, "clock", "ahorrar", "TIEMPO")}
-        {chip(4.6, "coin", "o ganar", "DINERO")}
+        {chip(1.8, "clock", "ahorrar", "TIEMPO")}
+        {chip(2.3, "coin", "o ganar", "DINERO")}
       </div>
     </GlassCard>
   );
