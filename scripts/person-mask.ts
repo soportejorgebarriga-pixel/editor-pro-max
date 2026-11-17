@@ -23,7 +23,7 @@ async function main() {
   mkdirSync(tmp, {recursive: true});
   const sel = Number.isFinite(end) ? `between(n\\,${start}\\,${end})` : `gte(n\\,${start})`;
   execFileSync("ffmpeg", ["-v", "error", "-y", "-i", video, "-vf", `select='${sel}',scale=540:960`, "-vsync", "0", "-start_number", String(start), path.join(tmp, "%05d.png")]);
-  const frames = readdirSync(tmp).filter((f) => f.endsWith(".png")).sort();
+  const frames = readdirSync(tmp).filter((f) => /^\d+\.png$/.test(f)).sort();
   let i = 0;
   for (const f of frames) {
     const out = path.join(outDir, f);

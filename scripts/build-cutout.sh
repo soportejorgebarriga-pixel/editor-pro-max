@@ -4,7 +4,8 @@
 set -euo pipefail
 n="$1"
 src="public/assets/enhanced/$n.mp4"
-masks="public/assets/masks/$n"
+python3 scripts/clean-masks.py "public/assets/masks/$n" "public/assets/masks/clean/$n"
+masks="public/assets/masks/clean/$n"
 out="public/assets/cutout/$n.webm"
 mkdir -p public/assets/cutout
 count=$(ls "$masks"/*.png | wc -l)
