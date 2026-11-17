@@ -38,3 +38,7 @@ dist/
 *.MOV
 *.wav
 whisper.cpp/
+
+# Generated person masks and cut-outs
+public/assets/masks/
+public/assets/cutout/

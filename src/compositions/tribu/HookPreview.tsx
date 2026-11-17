@@ -61,6 +61,33 @@ const Vignette: React.FC = () => (
   />
 );
 
+/**
+ * Two-layer clip: full video at the back, then `behind` graphics, then a transparent
+ * cut-out of Jorge (same zoom) on top, so titles/logos sit BEHIND him and never cover his face.
+ */
+const LayeredClip: React.FC<{
+  clip: string;
+  trimFrames: number;
+  punches: number[];
+  base?: [number, number];
+  entryPunch?: boolean;
+  volume?: (f: number) => number;
+  behind?: React.ReactNode;
+  front?: React.ReactNode;
+}> = ({clip, trimFrames, punches, base, entryPunch, volume, behind, front}) => (
+  <AbsoluteFill>
+    <PunchZoom punches={punches} base={base} entryPunch={entryPunch}>
+      <OffthreadVideo src={staticFile(`assets/enhanced/${clip}.mp4`)} trimBefore={trimFrames} volume={volume} />
+    </PunchZoom>
+    <Vignette />
+    {behind}
+    <PunchZoom punches={punches} base={base} entryPunch={entryPunch}>
+      <OffthreadVideo src={staticFile(`assets/cutout/${clip}.webm`)} trimBefore={trimFrames} transparent muted />
+    </PunchZoom>
+    {front}
+  </AbsoluteFill>
+);
+
 const HookHeadline: React.FC<{duration: number}> = ({duration}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -74,8 +101,10 @@ const HookHeadline: React.FC<{duration: number}> = ({duration}) => {
     <AbsoluteFill style={{alignItems: "center", pointerEvents: "none"}}>
       <div
         style={{
-          marginTop: 235,
-          padding: "26px 44px 30px",
+          marginTop: 150,
+          width: 900,
+          height: 520,
+          padding: "40px 44px 0",
           borderRadius: 30,
           background: BRAND.navyGlass,
           borderBottom: `6px solid ${BRAND.gold}`,
@@ -85,15 +114,15 @@ const HookHeadline: React.FC<{duration: number}> = ({duration}) => {
           transform: `translateY(${interpolate(enter, [0, 1], [-50, 0])}px) scale(${interpolate(enter, [0, 1], [0.9, 1])})`,
         }}
       >
-        <div style={{fontFamily: BRAND.font, fontWeight: 800, fontSize: 58, color: BRAND.white, letterSpacing: -0.5}}>
+        <div style={{fontFamily: BRAND.font, fontWeight: 800, fontSize: 68, color: BRAND.white, letterSpacing: -0.5}}>
           ¿TUS FINANZAS VAN
         </div>
         <div
           style={{
             fontFamily: BRAND.font,
             fontWeight: 900,
-            fontSize: 96,
-            lineHeight: 1.02,
+            fontSize: 124,
+            lineHeight: 1.05,
             letterSpacing: -2,
             background: `linear-gradient(180deg, ${BRAND.goldLight}, ${BRAND.goldDeep})`,
             WebkitBackgroundClip: "text",
@@ -120,9 +149,10 @@ const LogoCard: React.FC<{enterAt: number}> = ({enterAt}) => {
     <AbsoluteFill style={{alignItems: "center", pointerEvents: "none"}}>
       <div
         style={{
-          marginTop: 230,
+          marginTop: 150,
           width: 900,
-          padding: "34px 40px",
+          height: 520,
+          padding: "36px 70px 0",
           borderRadius: 34,
           background: BRAND.navyGlass,
           border: `2px solid rgba(230,191,138,0.55)`,
@@ -165,25 +195,26 @@ export const TribuHookPreview: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: BRAND.navy}}>
       <Sequence durationInFrames={A_DUR} name="Gancho (IMG_2320)">
-        <PunchZoom punches={[punch2027, punchComo]}>
-          <OffthreadVideo src={staticFile("assets/enhanced/IMG_2320.mp4")} trimBefore={msToFrames(A_TRIM_MS)} />
-        </PunchZoom>
-        <Vignette />
-        <HookHeadline duration={A_DUR} />
-        <ReelCaptions words={wordsA} clipOffsetMs={A_TRIM_MS} emphasis={EMPHASIS} />
+        <LayeredClip
+          clip="IMG_2320"
+          trimFrames={msToFrames(A_TRIM_MS)}
+          punches={[punch2027, punchComo]}
+          behind={<HookHeadline duration={A_DUR} />}
+          front={<ReelCaptions words={wordsA} clipOffsetMs={A_TRIM_MS} emphasis={EMPHASIS} />}
+        />
       </Sequence>
 
       <Sequence from={A_DUR} durationInFrames={B_DUR} name="Presentación Tribu (IMG_2321)">
-        <PunchZoom punches={[]} base={[1.04, 1.08]} entryPunch>
-          <OffthreadVideo
-            src={staticFile("assets/enhanced/IMG_2321.mp4")}
-            trimBefore={msToFrames(B_TRIM_MS)}
-            volume={(f) => interpolate(f, [B_DUR - 8, B_DUR], [1, 0], {extrapolateLeft: "clamp", extrapolateRight: "clamp"})}
-          />
-        </PunchZoom>
-        <Vignette />
-        <LogoCard enterAt={logoAt} />
-        <ReelCaptions words={wordsB} clipOffsetMs={B_TRIM_MS} emphasis={EMPHASIS} />
+        <LayeredClip
+          clip="IMG_2321"
+          trimFrames={msToFrames(B_TRIM_MS)}
+          punches={[]}
+          base={[1.04, 1.08]}
+          entryPunch
+          volume={(f) => interpolate(f, [B_DUR - 8, B_DUR], [1, 0], {extrapolateLeft: "clamp", extrapolateRight: "clamp"})}
+          behind={<LogoCard enterAt={logoAt} />}
+          front={<ReelCaptions words={wordsB} clipOffsetMs={B_TRIM_MS} emphasis={EMPHASIS} />}
+        />
       </Sequence>
     </AbsoluteFill>
   );
