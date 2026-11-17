@@ -20,9 +20,24 @@ import {BeforeAfterDemo} from "./compositions/BeforeAfterDemo";
 import {TalkingHeadEdit} from "./templates/editing/TalkingHeadEdit";
 import {PodcastClip} from "./templates/editing/PodcastClip";
 
+// Client projects
+import {EntrevistaPablo} from "./compositions/entrevista/EntrevistaPablo";
+import {TOTAL_FRAMES as ENTREVISTA_FRAMES} from "./compositions/entrevista/timeline";
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Jorge">
+        <Composition
+          id="EntrevistaPablo"
+          component={EntrevistaPablo}
+          durationInFrames={ENTREVISTA_FRAMES}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
       <Folder name="Examples">
         <Composition
           id="Showcase"
