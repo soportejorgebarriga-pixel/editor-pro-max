@@ -95,7 +95,7 @@ const Picture: React.FC<{s: PlacedSegment}> = ({s}) => {
   const cam = cameraTransform(s.from + frame);
   const muted = s.audio !== "source";
   // short audio fades at every cut (no clicks, softer transitions)
-  const fadeF = 6;
+  const fadeF = 3;
   return (
     <AbsoluteFill style={{overflow: "hidden", background: "#000"}}>
       <div

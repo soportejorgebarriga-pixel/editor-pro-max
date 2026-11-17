@@ -15,7 +15,7 @@ export const C = {
 
 // ---- Segments (in playback order) ----
 export type Segment = {
-  id: "hook" | "breath1" | "main" | "breath2" | "closing" | "cta";
+  id: "hook" | "main" | "breath2" | "closing" | "cta";
   srcStart: number;
   srcEnd: number;
   // "room" = mute the picture and play room tone (ambience) under it
@@ -25,10 +25,8 @@ export type Segment = {
 export const SEGMENTS: Segment[] = [
   // Gancho: Jorge's question moved to frame 0
   {id: "hook", srcStart: 61.5, srcEnd: 66.25, audio: "source"},
-  // Natural breath with room ambience before the conversation starts
-  {id: "breath1", srcStart: 0.45, srcEnd: 2.44, audio: "source"},
-  // The conversation flows uncut (natural pauses kept)
-  {id: "main", srcStart: 2.44, srcEnd: 116.8, audio: "source"},
+  // The conversation flows uncut (natural pauses kept); starts at "Pablo, cuéntanos"
+  {id: "main", srcStart: 5.3, srcEnd: 116.8, audio: "source"},
   // 2 s breath: Pablo listening, room tone under it
   {id: "breath2", srcStart: 117.05, srcEnd: 119.05, audio: "room"},
   // Closing (skip the "esa parte la podemos cortar" chatter)
@@ -72,9 +70,11 @@ export const frameToSrc = (frame: number) => {
 export type Framing = {s: number; fx: number; fy: number; tx: number; ty: number};
 export const FRAMINGS = {
   wide: {s: 1.0, fx: 540, fy: 960, tx: 540, ty: 960},
-  medium: {s: 1.25, fx: 575, fy: 560, tx: 540, ty: 600},
-  pablo: {s: 1.6, fx: 400, fy: 580, tx: 540, ty: 640},
-  jorge: {s: 1.6, fx: 745, fy: 545, tx: 540, ty: 640},
+  medium: {s: 1.25, fx: 575, fy: 560, tx: 540, ty: 540},
+  pablo: {s: 1.6, fx: 400, fy: 580, tx: 540, ty: 560},
+  jorge: {s: 1.6, fx: 745, fy: 545, tx: 540, ty: 560},
+  // both faces high in frame so titles sit well below them
+  duo: {s: 1.35, fx: 575, fy: 555, tx: 540, ty: 460},
 } satisfies Record<string, Framing>;
 export type FramingName = keyof typeof FRAMINGS;
 
@@ -87,11 +87,9 @@ export type Shot = {
 };
 
 export const SHOTS: Shot[] = [
-  {seg: "hook", src: 61.5, f: "jorge", punch: true},
-  {seg: "breath1", src: 0.45, f: "wide"},
+  {seg: "hook", src: 61.5, f: "duo", punch: true},
   // main
-  {seg: "main", src: 2.44, f: "wide"},
-  {seg: "main", src: 5.15, f: "medium"},
+  {seg: "main", src: 5.3, f: "medium"},
   {seg: "main", src: 8.38, f: "pablo"},
   {seg: "main", src: 13.2, f: "medium"},
   {seg: "main", src: 18.16, f: "pablo"},
@@ -129,7 +127,7 @@ export const SHOTS: Shot[] = [
 export type Gfx =
   | {kind: "tag"; text: string}
   | {kind: "kinetic"; lines: {t: string; gold?: boolean}[]; size?: number}
-  | {kind: "lowerThird"; name: string; role: string}
+  | {kind: "lowerThird"; name: string; role: string; ig?: string}
   | {kind: "location"}
   | {kind: "years"}
   | {kind: "icons"; at: number[]}
@@ -148,8 +146,7 @@ export const GFX: GfxCue[] = [
     seg: "hook", src: 61.55, dur: 4.65, zone: "low",
     g: {kind: "kinetic", size: 112, lines: [{t: "¿TRABAJAS TODO"}, {t: "EL DÍA Y NO"}, {t: "AVANZAS?", gold: true}]},
   },
-  {seg: "main", src: 4.3, dur: 2.4, zone: "top", g: {kind: "tag", text: "MISMO OUTFIT"}},
-  {seg: "main", src: 5.3, dur: 2.9, zone: "low", g: {kind: "lowerThird", name: "PABLO CEJAS", role: "CEO de Bermarys"}},
+  {seg: "main", src: 5.35, dur: 3.45, zone: "low", g: {kind: "lowerThird", name: "PABLO CEJAS", role: "CEO de Bermarys", ig: "@pablocejas.mkt"}},
   {seg: "main", src: 8.9, dur: 4.3, zone: "low", g: {kind: "location"}},
   {seg: "main", src: 13.3, dur: 5.1, zone: "low", g: {kind: "years"}},
   {seg: "main", src: 18.4, dur: 7.4, zone: "low", g: {kind: "icons", at: [20.5, 21.3, 22.0, 23.4]}},
@@ -183,6 +180,6 @@ export const GFX: GfxCue[] = [
 ];
 
 // White flashes (whoosh + flash), in output-frame positions
-export const FLASHES: number[] = [seg("breath1").from, srcToFrame("main", 110.0), seg("closing").from];
+export const FLASHES: number[] = [seg("main").from, srcToFrame("main", 110.0), seg("closing").from];
 
 export const CTA_QUESTION = ["¿QUÉ TAREA DE BAJA", "RENTABILIDAD VAS A", "DELEGAR ESTA SEMANA?"];

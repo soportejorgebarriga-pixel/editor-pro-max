@@ -1,12 +1,7 @@
 // Auto-generated from the Spanish transcription, hand-curated (src = seconds in the raw interview).
 export type Sub = {s: number; e: number; t: string; kw?: string; kwt?: number};
 export const SUBS: Sub[] = [
-  {"s": 2.44, "e": 3.0, "t": "Y aquí estamos"},
-  {"s": 3.0, "e": 3.5, "t": "con Pablo."},
-  {"s": 3.5, "e": 3.95, "t": "Nos pusimos"},
-  {"s": 3.95, "e": 4.45, "t": "de acuerdo para"},
-  {"s": 4.45, "e": 4.97, "t": "vestirnos igual", "kw": "igual", "kwt": 4.6},
-  {"s": 5.15, "e": 6.46, "t": "Pablo, cuéntanos:"},
+  {"s": 5.3, "e": 6.46, "t": "Pablo, cuéntanos:"},
   {"s": 6.46, "e": 7.2, "t": "¿Qué negocio tienes y"},
   {"s": 7.2, "e": 8.0, "t": "dónde estás ubicado?"},
   {"s": 8.38, "e": 8.86, "t": "Mi negocio está"},

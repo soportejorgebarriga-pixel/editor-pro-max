@@ -224,20 +224,53 @@ const Tag: React.FC<{text: string; total: number}> = ({text, total}) => {
   );
 };
 
-const LowerThird: React.FC<{name: string; role: string; total: number}> = ({name, role, total}) => {
+const IgGlyph: React.FC<{size?: number}> = ({size = 40}) => (
+  <svg width={size} height={size} viewBox="0 0 40 40">
+    <rect x="3" y="3" width="34" height="34" rx="10" fill="none" stroke={C.white} strokeWidth="3.5" />
+    <circle cx="20" cy="20" r="8" fill="none" stroke={C.white} strokeWidth="3.5" />
+    <circle cx="29.5" cy="10.5" r="2.4" fill={C.white} />
+  </svg>
+);
+
+const LowerThird: React.FC<{name: string; role: string; ig?: string; total: number}> = ({name, role, ig, total}) => {
   const {t} = useT();
   const env = envelope(t, total);
   const bar = prog(t, 0, 0.35);
+  const arrow = prog(t, 0.55, 0.6);
+  const igp = prog(t, 0.45, 0.45);
+  const nudge = t > 1.2 ? Math.sin((t - 1.2) * 5) * 6 : 0;
   return (
-    <div style={{opacity: env, display: "flex", alignItems: "stretch", gap: 22, marginTop: 160}}>
+    <div style={{opacity: env, position: "relative", display: "flex", alignItems: "stretch", gap: 22}}>
+      {/* arrow pointing up to Pablo */}
+      <svg width={220} height={240} viewBox="0 0 220 240" style={{position: "absolute", left: 200, top: -232, transform: `translateY(${nudge}px)`, overflow: "visible"}}>
+        {[{c: "rgba(14,42,59,0.85)", w: 20}, {c: C.white, w: 10}].map((st, i) => (
+          <path
+            key={i}
+            d="M150 232 C 150 140, 40 150, 40 30 M14 64 L40 22 L70 58"
+            fill="none"
+            stroke={st.c}
+            strokeWidth={st.w}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray={360}
+            strokeDashoffset={360 * (1 - arrow)}
+          />
+        ))}
+      </svg>
       <div style={{width: 10, borderRadius: 5, background: C.green, transform: `scaleY(${bar})`, transformOrigin: "top"}} />
-      <div style={{background: "rgba(14,42,59,0.72)", padding: "16px 28px 18px", borderRadius: 18}}>
+      <div style={{background: "rgba(14,42,59,0.82)", padding: "16px 28px 20px", borderRadius: 18}}>
         <Reveal p={prog(t, 0.15, 0.45)}>
           <div style={{fontFamily: DMSANS, fontWeight: 800, fontSize: 52, color: C.white, letterSpacing: 1}}>{name}</div>
         </Reveal>
         <Reveal p={prog(t, 0.28, 0.45)}>
           <div style={{fontFamily: DMSANS, fontWeight: 500, fontSize: 34, color: "rgba(247,244,238,0.85)"}}>{role}</div>
         </Reveal>
+        {ig && (
+          <div style={{marginTop: 12, display: "inline-flex", alignItems: "center", gap: 12, padding: "8px 18px 8px 12px", borderRadius: 999, background: C.green, opacity: igp, transform: `translateY(${(1 - igp) * 12}px)`}}>
+            <IgGlyph size={38} />
+            <div style={{fontFamily: DMSANS, fontWeight: 700, fontSize: 36, color: C.white}}>{ig}</div>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -528,7 +561,7 @@ export const GraphicCue: React.FC<{g: Gfx; total: number; zone: "top" | "low"}> 
       el = <Kinetic lines={g.lines} size={g.size ?? 112} total={total} />;
       break;
     case "lowerThird":
-      el = <LowerThird name={g.name} role={g.role} total={total} />;
+      el = <LowerThird name={g.name} role={g.role} ig={g.ig} total={total} />;
       break;
     case "location":
       el = <Location total={total} />;
