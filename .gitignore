@@ -33,3 +33,9 @@ dist/
 .trae/
 .windsurf/
 .zencoder/
+
+# Local media & tools
+whisper.cpp/
+*.MOV
+*.wav
+public/whisper-*.json
