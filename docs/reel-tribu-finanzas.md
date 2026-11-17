@@ -1,7 +1,7 @@
 # Reel: Qué es Tribu Finanzas en Acción (parrilla #7, 14/11/26)
 
 ## Decisiones confirmadas
-- CTA: palabra **TRIBU** (provisional, pendiente de confirmar con Jorge).
+- CTA: palabra **TRIBU** (Jorge la dice en el audio de IMG_2325).
 - B-roll de clases: `public/assets/broll/hotmart.mp4` (grabación de Vimeo, 4:40, sin audio).
   - 0:00–0:35 / 3:15–3:25 biblioteca de clases → cuando diga "más de 100 clases"
   - 0:50–1:20 Jorge en clase / con alumna
@@ -19,4 +19,7 @@
 ## Pendientes
 - Música: NO lleva; el usuario la agrega al publicar. Entregar solo con voz.
 - Calidad: no hay originales. Clips mejorados (denoise + upscale lanczos 1080x1920 + unsharp + contraste) en public/assets/enhanced/. Usar ESOS en la edición.
-8. Transcripción (bloqueada por red)
+- Transcripción: HECHA (whisper.cpp medium, es) → public/captions-IMG_23xx.json (ms relativos a cada clip).
+  - Jorge dice "más de 80 contenidos" (IMG_2321 ~19.1s), NO "100 clases" como la parrilla. B-roll de biblioteca va ahí.
+  - Jorge dice "Escribe la palabra TRIBU" (IMG_2325 ~1.0s) → CTA confirmado por audio.
+  - "más de 50 personas" (IMG_2321 ~16.7s), "martes cada 15 días en vivo" (~4.2s), "reto mensual" (~9s), "precio de relanzamiento" (IMG_2322).
