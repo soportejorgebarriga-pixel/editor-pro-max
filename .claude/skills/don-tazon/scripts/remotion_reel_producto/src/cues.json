@@ -1,0 +1,383 @@
+{
+ "fps": 30,
+ "total": 1767,
+ "segs": [
+  {
+   "from": 0,
+   "frames": 60,
+   "rol": "estante",
+   "producto": 1,
+   "clip": "t06",
+   "src": [
+    0.2,
+    2.2
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 60,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 1,
+   "clip": "t06",
+   "src": [
+    5.0,
+    6.4
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 102,
+   "frames": 78,
+   "rol": "revela",
+   "producto": 1,
+   "clip": "t06",
+   "src": [
+    10.6,
+    13.2
+   ],
+   "vel": 1,
+   "rev": 15
+  },
+  {
+   "from": 180,
+   "frames": 42,
+   "rol": "uso",
+   "producto": 1,
+   "clip": "t06",
+   "src": [
+    15.0,
+    16.4
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 222,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 2,
+   "clip": "t04",
+   "src": [
+    1.2,
+    2.9
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 273,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 2,
+   "clip": "t04",
+   "src": [
+    4.4,
+    5.8
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 315,
+   "frames": 84,
+   "rol": "revela",
+   "producto": 2,
+   "clip": "t04",
+   "src": [
+    13.0,
+    15.8
+   ],
+   "vel": 1,
+   "rev": 9
+  },
+  {
+   "from": 399,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 3,
+   "clip": "t07",
+   "src": [
+    2.8,
+    4.5
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 450,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 3,
+   "clip": "t07",
+   "src": [
+    8.0,
+    9.4
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 492,
+   "frames": 84,
+   "rol": "revela",
+   "producto": 3,
+   "clip": "t07",
+   "src": [
+    13.8,
+    16.6
+   ],
+   "vel": 1,
+   "rev": 12
+  },
+  {
+   "from": 576,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 4,
+   "clip": "t03",
+   "src": [
+    2.8,
+    4.5
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 627,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 4,
+   "clip": "t03",
+   "src": [
+    4.6,
+    6.0
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 669,
+   "frames": 84,
+   "rol": "revela",
+   "producto": 4,
+   "clip": "t03",
+   "src": [
+    22.0,
+    24.8
+   ],
+   "vel": 1,
+   "rev": 45
+  },
+  {
+   "from": 753,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 5,
+   "clip": "t05",
+   "src": [
+    4.0,
+    5.7
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 804,
+   "frames": 48,
+   "rol": "toma",
+   "producto": 5,
+   "clip": "t05",
+   "src": [
+    8.0,
+    9.6
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 852,
+   "frames": 84,
+   "rol": "revela",
+   "producto": 5,
+   "clip": "t05",
+   "src": [
+    12.0,
+    14.8
+   ],
+   "vel": 1,
+   "rev": 18
+  },
+  {
+   "from": 936,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 6,
+   "clip": "t09",
+   "src": [
+    3.2,
+    4.9
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 987,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 6,
+   "clip": "t09",
+   "src": [
+    7.2,
+    8.6
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1029,
+   "frames": 90,
+   "rol": "revela",
+   "producto": 6,
+   "clip": "t09",
+   "src": [
+    15.6,
+    18.6
+   ],
+   "vel": 1,
+   "rev": 42
+  },
+  {
+   "from": 1119,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 7,
+   "clip": "t02",
+   "src": [
+    0.8,
+    2.5
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1170,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 7,
+   "clip": "t02",
+   "src": [
+    4.2,
+    5.6
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1212,
+   "frames": 84,
+   "rol": "revela",
+   "producto": 7,
+   "clip": "t02",
+   "src": [
+    12.4,
+    15.2
+   ],
+   "vel": 1,
+   "rev": 18
+  },
+  {
+   "from": 1296,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 8,
+   "clip": "t10",
+   "src": [
+    4.8,
+    6.5
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1347,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 8,
+   "clip": "t10",
+   "src": [
+    9.0,
+    10.4
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1389,
+   "frames": 96,
+   "rol": "revela",
+   "producto": 8,
+   "clip": "t10",
+   "src": [
+    18.6,
+    21.8
+   ],
+   "vel": 1,
+   "rev": 42
+  },
+  {
+   "from": 1485,
+   "frames": 51,
+   "rol": "estante",
+   "producto": 9,
+   "clip": "t01",
+   "src": [
+    0.3,
+    2.0
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1536,
+   "frames": 42,
+   "rol": "toma",
+   "producto": 9,
+   "clip": "t01",
+   "src": [
+    5.4,
+    6.8
+   ],
+   "vel": 1,
+   "rev": 0
+  },
+  {
+   "from": 1578,
+   "frames": 90,
+   "rol": "revela",
+   "producto": 9,
+   "clip": "t01",
+   "src": [
+    10.8,
+    15.6
+   ],
+   "vel": 1.6,
+   "rev": 22
+  },
+  {
+   "from": 1668,
+   "frames": 99,
+   "rol": "cierre",
+   "producto": 0,
+   "clip": "t06",
+   "src": [
+    22.2,
+    25.0
+   ],
+   "vel": 1,
+   "rev": 0
+  }
+ ]
+}
