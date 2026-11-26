@@ -34,3 +34,4 @@ dist/
 .windsurf/
 .zencoder/
 whisper.cpp/
+*.m4a

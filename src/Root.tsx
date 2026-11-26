@@ -20,9 +20,23 @@ import {BeforeAfterDemo} from "./compositions/BeforeAfterDemo";
 import {TalkingHeadEdit} from "./templates/editing/TalkingHeadEdit";
 import {PodcastClip} from "./templates/editing/PodcastClip";
 
+// Vlogs
+import {VlogVolcanFuego, VLOG_VOLCAN_DURATION} from "./compositions/VlogVolcanFuego";
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Vlogs">
+        <Composition
+          id="VlogVolcanFuego"
+          component={VlogVolcanFuego}
+          durationInFrames={VLOG_VOLCAN_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
       <Folder name="Examples">
         <Composition
           id="Showcase"
