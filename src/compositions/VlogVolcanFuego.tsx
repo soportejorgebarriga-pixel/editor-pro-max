@@ -155,7 +155,7 @@ const SEGMENTS: Segment[] = [
     voiceIn: 13.94,
     voiceOut: 44.1,
     visuals: [
-      {src: "b3164.mp4", t: 13.94, from: 24.0, zoom: 0.08},
+      {src: "b3164.mp4", t: 13.94, from: 26.3, zoom: 0.08},
       {src: "b3153.mp4", t: 18.3, from: 0.0, zoom: 0.05},
       {src: "b3153.mp4", t: 23.7, from: 10.5, zoom: 0.04},
       {src: "a3187.mp4", t: 26.3, aroll: true},
