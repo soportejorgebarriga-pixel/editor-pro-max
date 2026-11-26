@@ -35,3 +35,4 @@ dist/
 .zencoder/
 whisper.cpp/
 *.m4a
+*.wav
