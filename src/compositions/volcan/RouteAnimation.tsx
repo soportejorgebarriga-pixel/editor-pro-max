@@ -176,7 +176,7 @@ export const RouteAnimation: React.FC = () => {
           </text>
           <rect x={210} y={268} width={660} height={84} rx={42} fill={ORANGE} />
           <text x={540} y={326} textAnchor="middle" fill="#0D2440" fontSize={44} fontWeight={900} fontFamily="VlogMontserrat">
-            {`${Math.max(0, Math.min(7, Math.floor(p * 7.4)))} HORAS DE CAMINO`}
+            {`${Math.min(7, Math.floor(minutes / 60))} ${Math.min(7, Math.floor(minutes / 60)) === 1 ? "HORA" : "HORAS"} DE CAMINO`}
           </text>
         </g>
       </svg>
