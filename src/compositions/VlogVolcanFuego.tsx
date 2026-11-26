@@ -10,14 +10,15 @@ import {
 } from "remotion";
 import {Audio, Video} from "@remotion/media";
 import {loadFont} from "@remotion/fonts";
+import {ANTON_WOFF2, MONTSERRAT_WOFF2} from "./vlogFonts";
 
-// Fonts bundled in public/fonts so renders work offline.
+// Fonts embedded as data URLs so they never wait behind video downloads.
 const ANTON = "VlogAnton";
 const MONT = "VlogMontserrat";
-loadFont({family: ANTON, url: staticFile("fonts/Anton-Regular.woff2"), format: "woff2"});
+loadFont({family: ANTON, url: ANTON_WOFF2, format: "woff2"});
 loadFont({
   family: MONT,
-  url: staticFile("fonts/Montserrat-Variable.woff2"),
+  url: MONTSERRAT_WOFF2,
   format: "woff2",
   weight: "100 900",
 });
