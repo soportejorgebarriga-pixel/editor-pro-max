@@ -84,16 +84,6 @@ const SEGMENTS: Segment[] = [
       {t: 15.6, text: "vimos varias erupciones", hl: ["erupciones"]},
     ],
   },
-  // HOOK 2 — la toma del volcán, solo con la reacción real
-  {
-    name: "Hook reacción",
-    voice: "reaccion.wav",
-    voiceIn: 2.6,
-    voiceOut: 9.2,
-    visuals: [{src: "b3164.mp4", t: 2.6, aroll: true, zoom: 0.06}],
-    overlays: [{t: 6.4, dur: 2.8, kind: "pin", label: "Volcán de Fuego", sub: "en erupción"}],
-    caps: [],
-  },
   // FLASHBACK — aeropuerto + animación del vuelo
   {
     name: "Aeropuerto",
@@ -105,7 +95,6 @@ const SEGMENTS: Segment[] = [
       {src: "vuelo.mp4", t: 0.81, from: 0.2},
       {src: "a3014.mp4", t: 4.74, aroll: true},
     ],
-    overlays: [{t: 0.18, dur: 1.5, kind: "rewind", label: "¿Cómo llegamos aquí?"}],
     caps: [
       {t: 0.2, text: "estamos listos"},
       {t: 0.81, text: "ya vamos desde México", hl: ["México"]},
@@ -164,7 +153,7 @@ const SEGMENTS: Segment[] = [
     voiceIn: 30.9,
     voiceOut: 40.5,
     visuals: [
-      {src: "a3187.mp4", t: 30.9, aroll: true},
+      {src: "b3164.mp4", t: 30.9, from: 0.0, zoom: 0.06},
       {t: 33.9, anim: "route"},
     ],
     caps: [
@@ -185,7 +174,8 @@ const SEGMENTS: Segment[] = [
     visuals: [
       {src: "b3153.mp4", t: 17.15, from: 0.0, zoom: 0.04},
       {src: "b3153.mp4", t: 23.7, from: 10.5, zoom: 0.04},
-      {src: "a3187.mp4", t: 26.3, aroll: true},
+      {src: "b3185.mp4", t: 26.3, from: 2.0, zoom: 0.06},
+      {src: "b3164.mp4", t: 28.68, from: 26.3, zoom: 0.08},
     ],
     overlays: [{t: 17.15, dur: 4.5, kind: "brujula"}],
     caps: [
@@ -208,8 +198,8 @@ const SEGMENTS: Segment[] = [
     voiceIn: 40.52,
     voiceOut: 44.1,
     visuals: [
-      {src: "b3164.mp4", t: 40.52, from: 26.6, zoom: 0.06},
-      {src: "a3187.mp4", t: 42.3, aroll: true},
+      {src: "a3187.mp4", t: 40.52, aroll: true},
+      {src: "b3165.mp4", t: 42.3, from: 0.6, zoom: 0.1},
     ],
     caps: [
       {t: 40.56, text: "una aventura increíble", hl: ["increíble"]},
@@ -224,11 +214,21 @@ const SEGMENTS: Segment[] = [
     voiceIn: 44.58,
     voiceOut: 46.36,
     tail: 0.5,
-    visuals: [{src: "b3185.mp4", t: 44.58, from: 0.0, zoom: 0.06}],
+    visuals: [{src: "b3185.mp4", t: 44.58, from: 5.0, zoom: 0.06}],
     caps: [
       {t: 44.62, text: "realmente no tienen valor", hl: ["valor"]},
       {t: 45.6, text: "son priceless", hl: ["priceless"]},
     ],
+  },
+  // El momento: la toma donde están viendo la montaña, solo con la reacción real
+  {
+    name: "Momento",
+    voice: "reaccion.wav",
+    voiceIn: 2.6,
+    voiceOut: 9.2,
+    visuals: [{src: "b3164.mp4", t: 2.6, aroll: true, zoom: 0.06}],
+    overlays: [{t: 6.4, dur: 2.8, kind: "pin", label: "Volcán de Fuego", sub: "en erupción"}],
+    caps: [],
   },
 ];
 
@@ -597,10 +597,10 @@ export const VlogVolcanFuego: React.FC = () => {
       })}
 
       <Sequence from={VOICE_FRAMES} durationInFrames={f(CTA_SECONDS)} name="CTA">
-        <Clip src="b3165.mp4" from={2.0} zoom={0.06} dur={f(CTA_SECONDS)} />
+        <Clip src="b3164.mp4" from={29.0} zoom={0.06} dur={f(CTA_SECONDS)} />
         <Audio
-          src={A("erupcion.wav")}
-          trimBefore={f(2.0)}
+          src={A("reaccion.wav")}
+          trimBefore={f(29.0)}
           volume={(fr) =>
             interpolate(fr, [0, 8, f(CTA_SECONDS) - 15, f(CTA_SECONDS)], [0, 0.55, 0.55, 0], {extrapolateRight: "clamp"})
           }
