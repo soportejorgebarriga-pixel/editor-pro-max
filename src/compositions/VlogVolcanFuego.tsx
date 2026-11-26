@@ -28,10 +28,10 @@ const A = (name: string) => staticFile(`assets/volcan/${name}`);
 
 // ---------------------------------------------------------------------------
 // Edit decision list — storytelling order:
-//   HOOK: summit ("where we are + what we saw") → eruption with the real
-//   reaction only → FLASHBACK: airport + flight map → 10 PM start → night
-//   climb → route animation (7 h, 10 PM → 6 AM) → Brújula + fogata →
-//   reflection → priceless → CTA.
+//   HOOK (summit: where we are + what we saw) → soft fade → airport + flight
+//   map → 10 PM start → night climb → full summit story in the order it was
+//   told (Brújula + fogata, reflection, route animation, volcano shots) →
+//   the moment watching the eruption (real reaction only) → CTA.
 //
 // Voice comes from studio-processed tracks (voz*.wav). Each segment plays one
 // slice (voiceIn → voiceOut, seconds of that source clip) + optional `tail`.
@@ -62,6 +62,8 @@ type Segment = {
   voiceIn: number;
   voiceOut: number;
   tail?: number;
+  fadeIn?: number; // frames, from black
+  fadeOut?: number; // frames, to black
   visuals: Visual[];
   caps: Cap[];
   overlays?: Overlay[];
@@ -71,6 +73,7 @@ const SEGMENTS: Segment[] = [
   // HOOK 1 — dónde están y qué vieron
   {
     name: "Hook cumbre",
+    fadeOut: 12,
     voice: "voz3187.wav",
     voiceIn: 10.82,
     voiceOut: 17.15,
@@ -87,6 +90,7 @@ const SEGMENTS: Segment[] = [
   // FLASHBACK — aeropuerto + animación del vuelo
   {
     name: "Aeropuerto",
+    fadeIn: 14,
     voice: "voz3014.wav",
     voiceIn: 0.18,
     voiceOut: 10.5,
@@ -146,36 +150,23 @@ const SEGMENTS: Segment[] = [
       {t: 16.67, text: "¡ahí les contamos!"},
     ],
   },
-  // Cumbre: reflexión + animación de la ruta (7 h, 10 PM → 6 AM)
+  // Cumbre: relato completo, en el orden en que se dijo (sin recortes)
   {
-    name: "Ruta",
-    voice: "voz3187.wav",
-    voiceIn: 30.9,
-    voiceOut: 40.5,
-    visuals: [
-      {src: "b3164.mp4", t: 30.9, from: 0.0, zoom: 0.06},
-      {t: 33.9, anim: "route"},
-    ],
-    caps: [
-      {t: 30.92, text: "ha sido increíble", hl: ["increíble"]},
-      {t: 32.3, text: "lo que hemos vivido"},
-      {t: 33.94, text: "son ya como siete horas", hl: ["siete", "horas"]},
-      {t: 36.44, text: "de camino desde la noche", hl: ["noche"]},
-      {t: 38.6, text: "y ahorita"},
-      {t: 39.4, text: "6 de la mañana", hl: ["6", "mañana"]},
-    ],
-  },
-  // Brújula + fogata + "experiencia para toda la vida"
-  {
-    name: "Brujula",
+    name: "Cumbre relato",
     voice: "voz3187.wav",
     voiceIn: 17.15,
-    voiceOut: 30.88,
+    voiceOut: 46.36,
+    tail: 0.6,
     visuals: [
       {src: "b3153.mp4", t: 17.15, from: 0.0, zoom: 0.04},
       {src: "b3153.mp4", t: 23.7, from: 10.5, zoom: 0.04},
-      {src: "b3185.mp4", t: 26.3, from: 2.0, zoom: 0.06},
-      {src: "b3164.mp4", t: 28.68, from: 26.3, zoom: 0.08},
+      {src: "a3187.mp4", t: 26.3, aroll: true},
+      {src: "b3164.mp4", t: 28.68, from: 0.0, zoom: 0.06},
+      {src: "a3187.mp4", t: 30.9, aroll: true},
+      {t: 33.9, anim: "route"},
+      {src: "b3185.mp4", t: 40.5, from: 2.0, zoom: 0.06},
+      {src: "b3165.mp4", t: 42.3, from: 0.6, zoom: 0.1},
+      {src: "b3164.mp4", t: 44.6, from: 26.3, zoom: 0.08},
     ],
     overlays: [{t: 17.15, dur: 4.5, kind: "brujula"}],
     caps: [
@@ -189,33 +180,15 @@ const SEGMENTS: Segment[] = [
       {t: 26.35, text: "pero es una experiencia", hl: ["experiencia"]},
       {t: 28.68, text: "que va a quedar marcada", hl: ["marcada"]},
       {t: 29.82, text: "para toda la vida", hl: ["vida"]},
-    ],
-  },
-  // Cierre A-roll
-  {
-    name: "Aventura increible",
-    voice: "voz3187.wav",
-    voiceIn: 40.52,
-    voiceOut: 44.1,
-    visuals: [
-      {src: "a3187.mp4", t: 40.52, aroll: true},
-      {src: "b3165.mp4", t: 42.3, from: 0.6, zoom: 0.1},
-    ],
-    caps: [
-      {t: 40.56, text: "una aventura increíble", hl: ["increíble"]},
+      {t: 30.92, text: "ha sido increíble", hl: ["increíble"]},
+      {t: 32.3, text: "lo que hemos vivido"},
+      {t: 33.94, text: "son ya como siete horas", hl: ["siete", "horas"]},
+      {t: 36.44, text: "de camino desde la noche", hl: ["noche"]},
+      {t: 38.6, text: "y ahorita"},
+      {t: 39.4, text: "6 de la mañana", hl: ["6", "mañana"]},
+      {t: 40.56, text: "de verdad, una aventura increíble", hl: ["increíble"]},
       {t: 42.34, text: "para todos"},
       {t: 43.04, text: "este tipo de cosas"},
-    ],
-  },
-  // Priceless
-  {
-    name: "Priceless",
-    voice: "voz3187.wav",
-    voiceIn: 44.58,
-    voiceOut: 46.36,
-    tail: 0.5,
-    visuals: [{src: "b3185.mp4", t: 44.58, from: 5.0, zoom: 0.06}],
-    caps: [
       {t: 44.62, text: "realmente no tienen valor", hl: ["valor"]},
       {t: 45.6, text: "son priceless", hl: ["priceless"]},
     ],
@@ -523,6 +496,14 @@ const CTA: React.FC = () => {
   );
 };
 
+/** Black layer for soft fade-in / fade-out at segment edges. */
+const FadeBlack: React.FC<{fadeIn?: number; fadeOut?: number; dur: number}> = ({fadeIn = 0, fadeOut = 0, dur}) => {
+  const frame = useCurrentFrame();
+  const a = fadeIn ? interpolate(frame, [0, fadeIn], [1, 0], {extrapolateRight: "clamp"}) : 0;
+  const b = fadeOut ? interpolate(frame, [dur - fadeOut, dur - 1], [0, 1], {extrapolateLeft: "clamp", extrapolateRight: "clamp"}) : 0;
+  return <AbsoluteFill style={{backgroundColor: "black", opacity: Math.max(a, b)}} />;
+};
+
 const Progress: React.FC = () => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
@@ -592,6 +573,8 @@ export const VlogVolcanFuego: React.FC = () => {
                 </Sequence>
               );
             })}
+
+            {seg.fadeIn || seg.fadeOut ? <FadeBlack fadeIn={seg.fadeIn} fadeOut={seg.fadeOut} dur={dur} /> : null}
           </Sequence>
         );
       })}
