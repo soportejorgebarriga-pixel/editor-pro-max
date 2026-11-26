@@ -9,10 +9,6 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import {FONT_FAMILIES, loadGoogleFont} from "../presets/fonts";
-
-loadGoogleFont("Poppins", "600;800");
-const fontFamily = FONT_FAMILIES.display;
 
 // Vertical (9:16) version for Stories / Reels, with a sea background.
 // Coordinates below are in the source map image space (1536x1024).
@@ -144,10 +140,7 @@ const PulseRings: React.FC<{x: number; y: number; start: number; color: string}>
   );
 };
 
-export const VueloMexicoGuatemalaReel: React.FC<{titulo?: string; subtitulo?: string}> = ({
-  titulo = "De México a Guatemala",
-  subtitulo = "✈  Próximo destino",
-}) => {
+export const VueloMexicoGuatemalaReel: React.FC = () => {
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
 
@@ -188,11 +181,6 @@ export const VueloMexicoGuatemalaReel: React.FC<{titulo?: string; subtitulo?: st
   const camX = interpolate(push, [0, 1], [610, 516]);
   const camY = interpolate(push, [0, 1], [372, 245]);
 
-  // Title
-  const titleIn = spring({frame: frame - 8, fps, config: {damping: 14, stiffness: 110}});
-  const subIn = spring({frame: frame - 2, fps, config: {damping: 14, stiffness: 110}});
-  const arrivedIn = spring({frame: frame - ARRIVE - 4, fps, config: {damping: 12, stiffness: 120}});
-
   const PlaneSprite: React.FC<{shadow?: boolean}> = ({shadow}) => (
     <div
       style={{
@@ -215,7 +203,7 @@ export const VueloMexicoGuatemalaReel: React.FC<{titulo?: string; subtitulo?: st
   );
 
   return (
-    <AbsoluteFill style={{fontFamily}}>
+    <AbsoluteFill>
       <Sea />
 
       {/* Map + flight, in image space */}
@@ -289,78 +277,6 @@ export const VueloMexicoGuatemalaReel: React.FC<{titulo?: string; subtitulo?: st
         <PlaneSprite />
       </div>
 
-      {/* Title block (inside the 9:16 safe area) */}
-      {titulo ? (
-        <div
-          style={{
-            position: "absolute",
-            top: 230,
-            left: 60,
-            right: 60,
-            textAlign: "center",
-            color: "#ffffff",
-          }}
-        >
-          <div
-            style={{
-              display: "inline-block",
-              fontSize: 40,
-              fontWeight: 600,
-              letterSpacing: 1,
-              padding: "10px 26px",
-              borderRadius: 999,
-              background: "rgba(255,255,255,0.16)",
-              border: "2px solid rgba(255,255,255,0.35)",
-              opacity: subIn,
-              transform: `translateY(${(1 - subIn) * 30}px)`,
-            }}
-          >
-            {subtitulo}
-          </div>
-          <div
-            style={{
-              marginTop: 22,
-              fontSize: 92,
-              fontWeight: 800,
-              lineHeight: 1.05,
-              letterSpacing: -1,
-              textShadow: "0 6px 24px rgba(0,20,60,0.45)",
-              opacity: titleIn,
-              transform: `translateY(${(1 - titleIn) * 50}px)`,
-            }}
-          >
-            {titulo}
-          </div>
-        </div>
-      ) : null}
-
-      {/* Arrival badge */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: 420,
-          left: 0,
-          right: 0,
-          display: "flex",
-          justifyContent: "center",
-          opacity: frame >= ARRIVE ? arrivedIn : 0,
-          transform: `scale(${0.7 + 0.3 * arrivedIn})`,
-        }}
-      >
-        <div
-          style={{
-            background: ACCENT,
-            color: "#ffffff",
-            fontSize: 56,
-            fontWeight: 800,
-            padding: "18px 44px",
-            borderRadius: 24,
-            boxShadow: "0 12px 30px rgba(0,0,0,0.3)",
-          }}
-        >
-          ¡Llegamos a Guatemala!
-        </div>
-      </div>
     </AbsoluteFill>
   );
 };
