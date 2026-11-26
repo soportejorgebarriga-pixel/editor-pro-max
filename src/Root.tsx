@@ -3,6 +3,7 @@ import {Composition, Folder} from "remotion";
 // Compositions
 import {ShowcaseComposition} from "./compositions/Showcase";
 import {VueloMexicoGuatemala} from "./compositions/VueloMexicoGuatemala";
+import {VueloMexicoGuatemalaReel, VUELO_REEL_DURATION} from "./compositions/VueloMexicoGuatemalaReel";
 
 // Social templates
 import {TikTokVideo} from "./templates/social/TikTokVideo";
@@ -32,6 +33,14 @@ export const RemotionRoot: React.FC = () => {
           fps={30}
           width={1920}
           height={1080}
+        />
+        <Composition
+          id="VueloMexicoGuatemalaReel"
+          component={VueloMexicoGuatemalaReel}
+          durationInFrames={VUELO_REEL_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
         />
       </Folder>
 
