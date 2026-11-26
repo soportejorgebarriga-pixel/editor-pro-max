@@ -33,3 +33,4 @@ dist/
 .trae/
 .windsurf/
 .zencoder/
+whisper.cpp/
