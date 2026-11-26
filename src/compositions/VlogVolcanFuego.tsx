@@ -9,24 +9,18 @@ import {
   useVideoConfig,
 } from "remotion";
 import {Audio, Video} from "@remotion/media";
-import {continueRender, delayRender} from "remotion";
+import {loadFont} from "@remotion/fonts";
 
 // Fonts bundled in public/fonts so renders work offline.
 const ANTON = "VlogAnton";
 const MONT = "VlogMontserrat";
-if (typeof document !== "undefined") {
-  const handle = delayRender("Loading vlog fonts");
-  const faces = [
-    new FontFace(ANTON, `url(${staticFile("fonts/Anton-Regular.woff2")}) format("woff2")`),
-    new FontFace(MONT, `url(${staticFile("fonts/Montserrat-Variable.woff2")}) format("woff2")`, {
-      weight: "100 900",
-    }),
-  ];
-  Promise.all(faces.map((ff) => ff.load()))
-    .then((loaded) => loaded.forEach((ff) => document.fonts.add(ff)))
-    .catch((e) => console.error(e))
-    .finally(() => continueRender(handle));
-}
+loadFont({family: ANTON, url: staticFile("fonts/Anton-Regular.woff2"), format: "woff2"});
+loadFont({
+  family: MONT,
+  url: staticFile("fonts/Montserrat-Variable.woff2"),
+  format: "woff2",
+  weight: "100 900",
+});
 
 const FPS = 30;
 const ACCENT = "#FF7A1A"; // lava orange
